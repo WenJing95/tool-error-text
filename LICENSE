@@ -1,0 +1,7 @@
+Code written for this paper (experiment/code/run.py, environment.py, behaviour.py, analyze.py, plot_figures.py and survey/make_tables.py) is released under the MIT License: permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense and sell copies of this software, provided this notice is included in all copies or substantial portions; the software is provided "as is", without warranty of any kind.
+
+The annotation data (survey/servers.csv, the annotation columns of survey/error_messages.csv, survey/codebook.md, experiment/scenarios, experiment/runs and experiment/results) is released under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).
+
+Quoted error text in survey/error_messages.csv and experiment/scenarios/filter_cases.jsonl remains under the copyright and license of the repository it was taken from; each row names the repository, whose fixed commit is recorded in survey/servers.csv.
+
+Content derived from the Berkeley Function Calling Leaderboard (experiment/code/bfcl_runtime and the tasks, tool lists, environment states and reference trajectories in experiment/scenarios/scenarios.jsonl) is under the Apache License 2.0 (see LICENSE-APACHE), copyright the Gorilla project contributors, taken from https://github.com/ShishirPatil/gorilla at commit 6ea57973c7a6097fd7c5915698c54c17c5b1b6c8.

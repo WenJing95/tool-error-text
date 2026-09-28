@@ -1,0 +1,949 @@
+{"id":"M0958","output_text":"Error: Screenshot is invalid.","total_tokens":421}
+{"id":"M2650","output_text":"Failed to start Qdrant container. Is port ${QDRANT_PORT} already in use?\nDetails: ${msg}","total_tokens":493}
+{"id":"M0016","output_text":"{\"ok\":false,\"error\":{\"code\":\"NOT_SUPPORTED\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"hint\":\"{exchangeId ?? this exchange} does not implement this method\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":573}
+{"id":"M2572","output_text":"Error: User '{args.Username}' not found\n\nUser '{args.Username}' not found.","total_tokens":515}
+{"id":"M1828","output_text":"Failed to generate chart: {error?.message || \"Unknown error\"}.","total_tokens":439}
+{"id":"M2713","output_text":"failed to list events in all namespaces: ${key} parameter must be a string","total_tokens":417}
+{"id":"M0362","output_text":"Error executing tool watch_video: Pillow failed to import, but it is a required dependency: {e}. without it there is no deduplication, no frames.json and no frame timestamps.","total_tokens":677}
+{"id":"M2642","output_text":".socraticodecontextartifacts.json: artifacts[${i}].path must be a non-empty string","total_tokens":446}
+{"id":"M2895","output_text":"could not mint a bearer (Cloud mint HTTP {exc.code}: <error body unavailable>).","total_tokens":455}
+{"id":"M0336","output_text":"{toolName}: Error: 🔌 TouchDesigner Connection Failed\n\nCannot connect to TouchDesigner API server at the configured address.\n\nPossible causes:\n  1. TouchDesigner is not running\n\n  2. WebServer DAT is not active\n\n  3. Wrong port configuration\n     → Default port is 9981\n\nOriginal error: ${error}.","total_tokens":801}
+{"id":"M2651","output_text":"Docker is not available.","total_tokens":442}
+{"id":"M0597","output_text":"Error executing tool start_browser_session: Viewport dimensions out of bounds. Width must be 100-7680, height must be 100-4320. Got {viewport_width}x{viewport_height}.","total_tokens":494}
+{"id":"M2764","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define at most 20 fields\"\n    }\n  ]\n}","total_tokens":486}
+{"id":"M2490","output_text":"Error: Network events not available","total_tokens":467}
+{"id":"M2215","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Restore blocked: the pre-restore safety snapshot could not be captured. Nothing was changed.\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":662}
+{"id":"M0198","output_text":"DocsAgent Core is not running.","total_tokens":541}
+{"id":"M0347","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"premium_feature_required\",\n  \"message\": {error_data.get('message', 'This is a premium feature that requires subscription')}\n}","total_tokens":727}
+{"id":"M0050","output_text":"Figma API rate limit hit (429).","total_tokens":450}
+{"id":"M1170","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"No active document\"\n}","total_tokens":502}
+{"id":"M2195","output_text":"Error: Cannot communicate with the local DeepCode service ({type(exc).__name__})\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":545}
+{"id":"M2554","output_text":"Error: User '{args.Username}' not found\n\nThe username may be incorrect.","total_tokens":470}
+{"id":"M2302","output_text":"Error: deviceDisplayNames must match pattern 'manufacturer (device)'","total_tokens":418}
+{"id":"M2890","output_text":"could not obtain a Netdata Cloud bearer (agent identity incomplete (mg/nd/claim_id)). The files inventory requires a signed-in identity.","total_tokens":598}
+{"id":"M1634","output_text":"\"Data incompatible with messages format. Each message should be a dictionary with 'role' and 'content' keys or a ChatMessage object.\"","total_tokens":449}
+{"id":"M0019","output_text":"{\"ok\":false,\"error\":{\"code\":\"EXCHANGE_UNAVAILABLE\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":true,\"hint\":\"the exchange is unreachable or under maintenance\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":594}
+{"id":"M0022","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_OUTCOME\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":584}
+{"id":"M1095","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, A multi-select Cascader with full_path=True expects a list of full root-to-leaf paths (e.g. [['Europe', 'France']]). {pydantic_input_details_and_other_errors}.","total_tokens":621}
+{"id":"M2354","output_text":"{\"status\":404,\"message\":\"Could not retrieve subscription {subscription}.\",\"results\":{\"message\":\"Could not retrieve subscription {subscription}\",\"type\":\"KeyNotFoundException\"},\"duration\":{duration_ms}}","total_tokens":530}
+{"id":"M1077","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Maximum value of selector is required to be larger than minimum value. {pydantic_input_details_and_other_errors}.","total_tokens":530}
+{"id":"M2155","output_text":"Either selector or index must be provided","total_tokens":406}
+{"id":"M0842","output_text":"{search-only prefix: All configured SearXNG instances failed. {instanceUrl}: }🌐 Network Error: {errorMsg}.{other instance failures/skipped details}","total_tokens":499}
+{"id":"M0026","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_EXCHANGE\",\"message\":\"unknown exchange id {JSON.stringify(exchangeId)}\",\"retryable\":false}}","total_tokens":502}
+{"id":"M0258","output_text":"Error: Rate limit reached ({stats.used}/{stats.limit}).","total_tokens":457}
+{"id":"M0292","output_text":"RuntimeError: Xvnc :{display_num} did not become ready within 5s — see {log_path}","total_tokens":455}
+{"id":"M1265","output_text":"Error executing tool query:","total_tokens":443}
+{"id":"M0099","output_text":"Error executing tool add_knowledge_base_to_agent:","total_tokens":663}
+{"id":"M0089","output_text":"Error: set_page content must be plain <mxGraphModel> XML for a single page, not a full <mxfile> or non-XML content","total_tokens":580}
+{"id":"M0647","output_text":"Error: At least --view or --path is required.","total_tokens":461}
+{"id":"M0831","output_text":"🔧 Configuration Error: Browser solver endpoint rejected the request.","total_tokens":453}
+{"id":"M1929","output_text":"Error executing tool list_documents: <Fault 1: {repr(GUI_DISPATCH_STUCK: GUI dispatch unavailable: '{operation}' timed out after {timeout:g}s and is still running ({running_for:.1f}s elapsed). The task cannot be safely cancelled. Future GUI operations will fail immediately until it finishes.)}>","total_tokens":710}
+{"id":"M0338","output_text":"{toolName}: Error: ⏱️  TouchDesigner Connection Timeout\n\nThe connection to TouchDesigner timed out.\n\nPossible causes:\n  1. TouchDesigner is slow to respond\n  2. Network issues\n  3. WebServer DAT is overloaded\n\nOriginal error: ${error}.","total_tokens":590}
+{"id":"M0480","output_text":"Error: either `config` or `id` must be provided","total_tokens":474}
+{"id":"M2910","output_text":"could not mint a bearer (NETDATA_CLOUD_TOKEN is not set).","total_tokens":481}
+{"id":"M2979","output_text":"Failed to execute tool manage_agent_knowledge: resource_id and scope_type are required for action:remove","total_tokens":454}
+{"id":"M2489","output_text":"Error: Network events not available (Firefox Remote Agent not running)","total_tokens":489}
+{"id":"M2226","output_text":"Invalid snapshot name: {name!r}","total_tokens":593}
+{"id":"M1000","output_text":"agent_run error (400): {apiMessage}","total_tokens":452}
+{"id":"M2367","output_text":"{\"status\":500,\"message\":\"Failed to get credential: {ex.Message}.\",\"results\":{\"message\":\"Failed to get credential: {ex.Message}\",\"type\":\"Exception\"},\"duration\":{duration_ms}}","total_tokens":543}
+{"id":"M2459","output_text":"Error executing tool memory_store: MemoryShapeError: List refused: each list item is its own memory, one claim per record;","total_tokens":565}
+{"id":"M2903","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint request failed: {exc!r}). otel-logs requires a signed-in identity;","total_tokens":533}
+{"id":"M1690","output_text":"{\n  \"error\": \"${provider} needs an API key.\"\n}","total_tokens":494}
+{"id":"M2382","output_text":"Style \"{slug}\" has no lint rules registered, so its code cannot be verified.","total_tokens":478}
+{"id":"M0997","output_text":"{\n  \"success\": false,\n  \"error\": \"Research not found\",\n  \"researchId\": \"{researchId}\",\n  \"message\": \"The specified research ID was not found.\"\n}","total_tokens":513}
+{"id":"M0872","output_text":"Failed to save snapshot to disk: {err.message or String(err)}","total_tokens":437}
+{"id":"M2018","output_text":"Error executing tool {name}: Sandbox '{sandbox_name}' not found. It is not a sandbox this server launched, and it could not be reached by name either: {error}.","total_tokens":526}
+{"id":"M0069","output_text":"Neither was provided.","total_tokens":435}
+{"id":"M0093","output_text":"Error executing tool text_to_speech: voice_id and voice_name cannot both be provided.","total_tokens":424}
+{"id":"M1261","output_text":"Error executing tool {tool}: {traceback_frames_and_exception_chain}\n{exception_type}: {exception_message}","total_tokens":488}
+{"id":"M2462","output_text":"Error executing tool memory_store_many: facts[{i}]: Heading refused: a memory needs no title, and a text that does is several memories.","total_tokens":589}
+{"id":"M2044","output_text":"{\"success\": false, \"message\": \"Communication error with Rhino: Loft operation failed\"}","total_tokens":502}
+{"id":"M1174","output_text":"{\n  \"ok\": false,\n  \"code\": \"layer_not_found\",\n  \"message\": \"Layer not found: {layerName}\"\n}","total_tokens":502}
+{"id":"M0346","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"subscription_required\",\n  \"message\": \"This feature is not available in your current plan\"\n}","total_tokens":631}
+{"id":"M1836","output_text":"{label} output exceeds the configured response limit ({limit.observed} > {limit.maximum} bytes; set {setting} to adjust).","total_tokens":465}
+{"id":"M0534","output_text":"Failed to call Actor '{actorName}': Failed to load Actor \"{actorName}\".","total_tokens":522}
+{"id":"M1700","output_text":"OpenRouter API key required for LLM sentiment analysis.","total_tokens":459}
+{"id":"M2862","output_text":"Error: Once schedules requires a valid ISO 8601 timestamp.","total_tokens":432}
+{"id":"M0031","output_text":"{\"ok\":false,\"error\":{\"code\":\"TIER_DISABLED\",\"message\":\"Raw write endpoints are not enabled for account {JSON.stringify(account.name)} (\\\"implicitWrites\\\": true). This cannot be enabled from the conversation.\",\"retryable\":false,\"hint\":\"\"}}","total_tokens":672}
+{"id":"M1087","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader options must not contain duplicate leaf values: {duplicates}. {pydantic_input_details_and_other_errors}.","total_tokens":673}
+{"id":"M0014","output_text":"{\"ok\":false,\"error\":{\"code\":\"ORDER_NOT_FOUND\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"hint\":\"the order may already be filled or canceled\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":635}
+{"id":"M2202","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Restore blocked: the pre-restore safety snapshot could not be captured. Nothing was changed.\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":624}
+{"id":"M0720","output_text":"[{tool-name}] Error: The request failed unexpectedly.","total_tokens":413}
+{"id":"M2840","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.\n\nUnable to connect to {url} - Connection reset.","total_tokens":562}
+{"id":"M2378","output_text":"Unknown style \"{slug}\".","total_tokens":436}
+{"id":"M1172","output_text":"{\n  \"ok\": false,\n  \"code\": \"font_not_found\",\n  \"message\": \"font_not_found: {opts.font}\"\n}","total_tokens":505}
+{"id":"M2746","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"default must be a valid ${column.kind} value\"\n    }\n  ]\n}","total_tokens":488}
+{"id":"M1739","output_text":"{\"error\":\"Error executing tool: entityType '${entityType}' cannot be created through create_entity because ${reason}.\",\"statusCode\":400}","total_tokens":565}
+{"id":"M1560","output_text":"Your team has reached its agent usage limit.","total_tokens":441}
+{"id":"M1020","output_text":"Error executing tool search_code_advanced: Operation failed: Search failed using 'ripgrep': ripgrep (rg) not found.","total_tokens":501}
+{"id":"M1082","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader leaf lists must contain only scalar values (str, number, bool, or date), not dicts or nested structures. {pydantic_input_details_and_other_errors}.","total_tokens":526}
+{"id":"M2498","output_text":"{\"error\":\"CLOUD_UNSUPPORTED\",\"message\":\"This tool needs a direct ComfyUI session ({op}) and is not available in Comfy Cloud mode.\"}","total_tokens":545}
+{"id":"M0446","output_text":"","total_tokens":671}
+{"id":"M1853","output_text":"Missing 'taskIntent'.","total_tokens":452}
+{"id":"M2219","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot {name!r} is not valid YAML: {err}\"\n  },\n  \"backup_name\": \"{backup_name}\"\n}","total_tokens":570}
+{"id":"M1846","output_text":"Missing 'component' field.","total_tokens":437}
+{"id":"M0415","output_text":"{message}: GitHub API rate limit exceeded.","total_tokens":432}
+{"id":"M1608","output_text":"SHARDED clusters require M30 or higher instance size.","total_tokens":416}
+{"id":"M2169","output_text":"Service retry policy changed","total_tokens":527}
+{"id":"M2988","output_text":"Failed to execute tool manage_agent_skills: skill_id is required for action:\"remove\".","total_tokens":438}
+{"id":"M2829","output_text":"**Input Error**\n\nThere was an HTTP 403 error with your request to the Sentry API.\n\nAPI error (403): Server error: Received HTML instead of JSON (403 {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":512}
+{"id":"M0557","output_text":"Failed to call Actor '{actorName}': {errMsg}","total_tokens":488}
+{"id":"M2985","output_text":"Failed to execute tool manage_agent_skills: skill_id is required for action:\"add\".","total_tokens":457}
+{"id":"M0115","output_text":"Error executing tool {tool_name}: File ({path}) does not exist.","total_tokens":455}
+{"id":"M2568","output_text":"Error: Team '{args.TeamName}' not found\n\nThe team name may be incorrect.","total_tokens":462}
+{"id":"M1320","output_text":"Error executing tool {tool}: Depth must be 0 (infinite) or a positive integer.","total_tokens":434}
+{"id":"M2938","output_text":"add_decorator only attaches to the tree root; it cannot target '{ParentNodeId}'.","total_tokens":476}
+{"id":"M2864","output_text":"conversationId: {resolvedConversationId}\n\nError: Interval schedules must use \"<positive integer><unit>\" with unit ms, s, m, h, or d.","total_tokens":466}
+{"id":"M1855","output_text":"Missing 'component' field.","total_tokens":426}
+{"id":"M0351","output_text":"Error executing tool {toolName}: {\n  \"error\": \"rate_limit_exceeded\",\n  \"message\": \"Meta API rate limit exceeded\",\n  \"details\": {\n    \"retry_after\": {response.headers.get('Retry-After', '60')}\n  }\n}","total_tokens":546}
+{"id":"M0279","output_text":"Could not fetch {url} (HTTP {res.status}).","total_tokens":424}
+{"id":"M1134","output_text":"Invalid connection string format: {ex.Message}","total_tokens":455}
+{"id":"M1083","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader options at '{path or 'root'}' contain an empty leaf list; provide at least one scalar leaf. {pydantic_input_details_and_other_errors}.","total_tokens":536}
+{"id":"M0944","output_text":"Error: iOS tunnel is not running","total_tokens":458}
+{"id":"M1446","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code None).\nLast output before it stopped:\n{earlier retained output lines, if any}\nERROR: No Terraform .tf files found in current directory or your source location.","total_tokens":546}
+{"id":"M1243","output_text":"CAD操作失败","total_tokens":617}
+{"id":"M2309","output_text":"Error: Invalid firebase.json: DataConnect requires `source`","total_tokens":421}
+{"id":"M1563","output_text":"could not load the team's apps","total_tokens":516}
+{"id":"M1007","output_text":"You've hit Exa's free MCP rate limit.","total_tokens":493}
+{"id":"M1586","output_text":"The Atlas Local deployment \"${deploymentName}\" was not found.","total_tokens":444}
+{"id":"M1640","output_text":"Invalid value for parameter `type`: {type}.","total_tokens":434}
+{"id":"M0544","output_text":"Failed to call MCP tool '{tool.originToolName}' on Actor '{tool.actorId}': You have reached your account limit for concurrent Actor runs.","total_tokens":589}
+{"id":"M1921","output_text":"Parameter validation failed: Invalid parameters:\nroot: waitFor is only valid when attaching by bundleId.\n{other_matched_validation_issues}","total_tokens":567}
+{"id":"M2399","output_text":"Required header {param.name} must be set in OPENAPI_MCP_HEADERS","total_tokens":479}
+{"id":"M0719","output_text":"The request failed unexpectedly.","total_tokens":413}
+{"id":"M0220","output_text":"{\"success\": false, \"project_dir\": \"{absolute_project_dir}\", \"target\": \"{target_name_from_yaml}\", \"logs\": \"{traceback_frames_chained_causes_and_optional_group_prefix}atopile.errors.UserException: Entry point `{entry_section}` not found in `{entry_file.name}`.\\n\\n**Available modules in this file:**\\n{modules_list}\\n{optional_group_suffix}\"}","total_tokens":728}
+{"id":"M0112","output_text":"Error executing tool video_to_music:","total_tokens":484}
+{"id":"M2848","output_text":"**Input Error**\n\nThere was an HTTP 404 error with your request to the Sentry API.","total_tokens":510}
+{"id":"M0856","output_text":"Error executing tool play_audio: File ({path}) does not exist.","total_tokens":450}
+{"id":"M0635","output_text":"Error: At least --view or --path is required.","total_tokens":478}
+{"id":"M1001","output_text":"agent_run error (401|403): {apiMessage}","total_tokens":462}
+{"id":"M2837","output_text":"**Configuration Error**\n\nThere appears to be a configuration issue with your setup.\n\nUnable to connect to {url} - {errorMessage}","total_tokens":479}
+{"id":"M2175","output_text":"Error: LaunchAgent command has changed\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":526}
+{"id":"M1774","output_text":"Chrome failed to start: {error.message}\n\nchrome-devtools-mcp is running as root and Chrome does not start as root (https://crbug.com/638180).\n\nCause: {error.message}","total_tokens":654}
+{"id":"M2198","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is missing {key}\"\n  },\n  \"backup_name\": \"{backup_name}\"\n}","total_tokens":676}
+{"id":"M2540","output_text":"No compiler specified and no default compiler available for language \"{language}\".","total_tokens":445}
+{"id":"M1932","output_text":"Error executing tool list_documents: <Fault 1: {repr(GUI_DISPATCH_FAILED: GUI dispatch gave up after {queued_for:.1f}s waiting for '{operation}' to start (queue_timeout={queue_timeout:g}s) (GUI thread has been busy for {busy_for:.1f}s)}>","total_tokens":699}
+{"id":"M1457","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code None).\nLast output before it stopped:\n{earlier retained output lines, if any}\nWARNING: No variable value supplied for {varitem} but it is referenced in module {module}","total_tokens":523}
+{"id":"M2641","output_text":".socraticodecontextartifacts.json: artifacts[${i}].name must be a non-empty string","total_tokens":440}
+{"id":"M2917","output_text":"This consent grant was already used by an earlier call.","total_tokens":471}
+{"id":"M2640","output_text":".socraticodecontextartifacts.json: artifacts[${i}] must be an object","total_tokens":431}
+{"id":"M0563","output_text":"","total_tokens":610}
+{"id":"M2373","output_text":"Failed to initialize the 'azd' MCP tool.\n'azd' failed to start.","total_tokens":499}
+{"id":"M1169","output_text":"{\n  \"ok\": false,\n  \"code\": \"unknown\",\n  \"message\": \"Can only apply filters to normal (raster) layers. Layer kind: {layer.kind}.\"\n}","total_tokens":678}
+{"id":"M1183","output_text":"{\n  \"ok\": false,\n  \"code\": \"font_not_found\",\n  \"message\": \"font_not_found: {fontName}\"\n}","total_tokens":525}
+{"id":"M0428","output_text":"invalid resource_id, must be an integer for method {method}: {parseErr}","total_tokens":427}
+{"id":"M0852","output_text":"{search-only prefix: All configured SearXNG instances failed. {instanceUrl}: }🔍 SearXNG Response Error: Invalid JSON format. {other instance failures/skipped details}","total_tokens":592}
+{"id":"M0302","output_text":"{\"ok\":false,\"error\":\"button {button} unsupported on macOS (no middle-click)\",\"x\":{x},\"y\":{y},\"button\":{button},\"double\":{double},\"display\":\"{display}\"}","total_tokens":547}
+{"id":"M1099","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Invalid time string {v:repr}. Expected format 'HH:MM' or 'HH:MM:SS'. {pydantic_input_details_and_other_errors}.","total_tokens":565}
+{"id":"M1017","output_text":"Error executing tool search_code_advanced: Operation failed: Search failed using 'grep': 'grep' not found.","total_tokens":457}
+{"id":"M2342","output_text":"### JSON_RESULT\n```json\n{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"details\": {\"tool_name\": \"page_dialog_observe\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\", \"ok\": false}\n```\n### Error\nFailed to observe page dialog: This browser operation is unsupported.","total_tokens":862}
+{"id":"M1838","output_text":"Missing 'component' field. Available: {componentNames.join(\", \")}.","total_tokens":509}
+{"id":"M0459","output_text":"Error executing tool {name}: MCP policy write is not enabled.","total_tokens":435}
+{"id":"M0495","output_text":"Error (403): Workspace is in read-only mode due to billing issues.","total_tokens":442}
+{"id":"M1384","output_text":"{\n  \"error\": \"blocked_by_challenge\",\n  \"error_reason\": \"The site's bot protection served a challenge page that could not be cleared automatically\",\n  \"stage\": \"fetch\"\n}","total_tokens":540}
+{"id":"M2749","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"enum values must be unique\"\n    }\n  ]\n}","total_tokens":469}
+{"id":"M0274","output_text":"Error: Rate limited by Reddit","total_tokens":431}
+{"id":"M0449","output_text":"Error executing tool {name}: idempotencyKey must be 8-128 URL-safe characters [A-Za-z0-9._~-].","total_tokens":452}
+{"id":"M0024","output_text":"{\"ok\":false,\"error\":{\"code\":\"RESULT_TOO_LARGE\",\"message\":\"the result exceeds the host tool-result size limit\",\"retryable\":false}}","total_tokens":489}
+{"id":"M0956","output_text":"Error: mobilecli is not available or not working properly.","total_tokens":441}
+{"id":"M2655","output_text":"Ollama image download timed out after 10 minutes.","total_tokens":439}
+{"id":"M2552","output_text":"Error: Asset '{assetID}' not found\n\nThe asset ID may be incorrect.","total_tokens":489}
+{"id":"M0348","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"facebook_connection_required\"\n}","total_tokens":635}
+{"id":"M1048","output_text":"{\"success\":false,\"error\":\"unrecognised diagnostics text\"}","total_tokens":515}
+{"id":"M2854","output_text":"Error: Invalid cron expression: {formatJobError(error)}","total_tokens":457}
+{"id":"M2383","output_text":"No classes found in the provided code for \"{slug}\".","total_tokens":439}
+{"id":"M0067","output_text":"{tool_error_prefix}Failed to make request to Figma API endpoint '{endpoint}': {message}\n\nCould not connect to the Figma API.","total_tokens":628}
+{"id":"M1387","output_text":"{\n  \"error\": \"fetch_failed\",\n  \"error_reason\": \"Connection reset (ECONNRESET)\",\n  \"stage\": \"fetch\",\n  \"hint\": \"Remote peer closed the connection mid-request\"\n}","total_tokens":625}
+{"id":"M0689","output_text":"Cannot create the cache at {finalDbPath}: {cacheDir} is a file, not a directory.","total_tokens":508}
+{"id":"M2981","output_text":"Failed to execute tool manage_agent_skills: action:\"create\" requires both \"name\" and \"content\".","total_tokens":646}
+{"id":"M2003","output_text":"entity_id and canonical_id must differ — a resolution links two distinct entities","total_tokens":533}
+{"id":"M0646","output_text":"Error: Stored workflow state is invalid.","total_tokens":415}
+{"id":"M1784","output_text":"Could not connect to Chrome.\nCause: {err.message}","total_tokens":468}
+{"id":"M1088","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Please provide a valid value from `options`. {pydantic_input_details_and_other_errors}.","total_tokens":676}
+{"id":"M2851","output_text":"**Error**\n\nThere was an HTTP {status} server error with the Sentry API.\n\n{data.detail}","total_tokens":453}
+{"id":"M2199","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is missing {key}\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":616}
+{"id":"M0190","output_text":"{\"error\": {\"code\": \"target_not_supported\", \"message\": \"Source \\\"{source.name}\\\" does not support target \\\"{target}\\\" (supported: {supported})\"}}","total_tokens":509}
+{"id":"M2828","output_text":"Sentry rejected the stored access token for this session.","total_tokens":440}
+{"id":"M0774","output_text":"Error: {reason}{database_annotation}.","total_tokens":431}
+{"id":"M0770","output_text":"NotFoundError: The \"{check}\" check needs the \"{query.requiresExtension}\" extension, which is not installed on database \"{databaseName}\".","total_tokens":546}
+{"id":"M2204","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"'{tool_name}' requires a pre-write backup, but the snapshot could not be captured: the auto-backup directory is unusable: {_init_dir_error}. The write was blocked and nothing was changed.\"\n  },\n  \"tool_name\": \"{tool_name}\"\n}","total_tokens":598}
+{"id":"M1597","output_text":"Bad Request: ${msg}\n\nSchema type values are case-sensitive.","total_tokens":463}
+{"id":"M2125","output_text":"Error executing tool {tool_name}: ValueError: Multiple projects found with name '{project_root_or_name}'. Locations: {[p.project_root for p in project_candidates]}","total_tokens":486}
+{"id":"M0820","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}. Suggestions: API key seems too long ({apiKey.length} characters). Personal Access Tokens are typically around 82 characters long. {other co-occurring later key warnings}","total_tokens":687}
+{"id":"M1071","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, You must provide either the `text` or `icon` argument. {pydantic_input_details_and_other_errors}.","total_tokens":530}
+{"id":"M1589","output_text":"Received a Payment Required API Error: ${error.message}\n\nPayment setup is required to perform this action in MongoDB Atlas.","total_tokens":505}
+{"id":"M1842","output_text":"Missing 'component' field.","total_tokens":431}
+{"id":"M2360","output_text":"{\"status\":400,\"message\":\"additionalFilter must not contain the pipe operator '|' to prevent KQL injection. (Parameter 'additionalFilter').\",\"results\":{\"message\":\"additionalFilter must not contain the pipe operator '|' to prevent KQL injection. (Parameter 'additionalFilter')\",\"type\":\"ArgumentException\"},\"duration\":{duration_ms}}","total_tokens":573}
+{"id":"M0137","output_text":"{route_prefix}No transit route found from \"{originLabel_or_waypoint}\" to \"{destinationLabel_or_waypoint}\". The Google Routes API does not support transit directions in some regions (notably Japan and India).","total_tokens":521}
+{"id":"M2358","output_text":"{\"status\":422,\"message\":\"Subscription '{subscriptionResource.Data.SubscriptionId}' does not have a tenant ID.\",\"results\":{\"message\":\"Subscription '{subscriptionResource.Data.SubscriptionId}' does not have a tenant ID.\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":636}
+{"id":"M2977","output_text":"Failed to execute tool manage_agent_knowledge: resource_id, scope_type, and permission_type are required for action:update","total_tokens":440}
+{"id":"M1504","output_text":"No instance selected.","total_tokens":419}
+{"id":"M0996","output_text":"agent_run error: A runId resume call accepts only runId; create options apply only to a new query.","total_tokens":436}
+{"id":"M1587","output_text":"Atlas Local deployment \"${deploymentName}\" is still starting up.","total_tokens":454}
+{"id":"M2562","output_text":"Error: Data product '{id}' not found\n\nThe data product ID may be incorrect.","total_tokens":470}
+{"id":"M2015","output_text":"Error executing tool {name}: Sandbox variant '{variant}' has no environment versions; only 'datalayer' has.","total_tokens":463}
+{"id":"M1625","output_text":"Invalid value for parameter `format`: {format}.","total_tokens":445}
+{"id":"M2588","output_text":"Failed to retrieve CI information: ${cipeResult.error.message}.","total_tokens":428}
+{"id":"M1022","output_text":"Server busy, request queued too long. (Queue timeout after {timeout}s (ticket {my_ticket}))","total_tokens":481}
+{"id":"M2507","output_text":"{\"error\":\"OBJECT_INFO_AUTH\",\"message\":\"{err.message} This is an authentication failure, not evidence that the node pack is missing or that the class_type is uninstalled. A connected panel that can already add the type (panel_add_node after panel_refresh_nodes) is reading the live registry through an authenticated browser session this process does not have.\",\"details\":{\"status\":{status},\"url\":\"{url}\"}}","total_tokens":668}
+{"id":"M2107","output_text":"Error executing tool rename_symbol: ValueError: Unhandled document change kind: {change}","total_tokens":469}
+{"id":"M1595","output_text":"Bad Request: ${msg}","total_tokens":453}
+{"id":"M2473","output_text":"Error: Cannot find geckodriver binary.","total_tokens":433}
+{"id":"M1182","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"No active document\"\n}","total_tokens":497}
+{"id":"M2905","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint returned non-JSON). The files inventory requires a signed-in identity.","total_tokens":517}
+{"id":"M2465","output_text":"Error executing tool memory_store: MemoryShapeError: Refused ({matched_phrase!r}): where a fact is written down elsewhere is not the fact.","total_tokens":588}
+{"id":"M2218","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is invalid\",\n    \"suggestion\": \"\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":724}
+{"id":"M0650","output_text":"Error: At least --view or --path is required.","total_tokens":501}
+{"id":"M0109","output_text":"Error executing tool compose_music: Either prompt or composition_plan must be provided. Prompt: {prompt}","total_tokens":733}
+{"id":"M1848","output_text":"Missing 'component' field.","total_tokens":434}
+{"id":"M1090","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Please provide a valid value from `options`. {pydantic_input_details_and_other_errors}.","total_tokens":662}
+{"id":"M0729","output_text":"[{tool-name}] Error: Rate limited by Hevy (HTTP 429).","total_tokens":455}
+{"id":"M0091","output_text":"Error: could not load the shape search index (shape index is not a non-empty array).","total_tokens":449}
+{"id":"M2475","output_text":"Error: Marionette port not found.","total_tokens":442}
+{"id":"M0946","output_text":"Error: WebDriverAgent is not running on device (tunnel okay, port forwarding okay)","total_tokens":484}
+{"id":"M0051","output_text":"{tool_error_prefix}Figma API rate limit hit (429).{optional_seat_plan_upgrade_text}","total_tokens":504}
+{"id":"M0011","output_text":"{\"ok\":false,\"error\":{\"code\":\"INSUFFICIENT_FUNDS\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":541}
+{"id":"M1543","output_text":"Error: Invalid arguments for perplexity_ask: 'messages' must be an array","total_tokens":427}
+{"id":"M2546","output_text":"Error: Asset '{id}' not found\n\nThe asset ID may be incorrect or you may not have permission to view it.","total_tokens":492}
+{"id":"M2774","output_text":"{\"result\": {\"error\": \"max_facts must be a positive integer\"}}","total_tokens":453}
+{"id":"M0363","output_text":"Error executing tool watch_video: No frames could be extracted — the download may be incomplete or the file is not a playable video.","total_tokens":560}
+{"id":"M1094","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, {pydantic_input_details_and_other_errors}.","total_tokens":804}
+{"id":"M0144","output_text":"{legacy_context_prefix}No results found.{legacy_context_suffix}","total_tokens":478}
+{"id":"M1166","output_text":"{\n  \"ok\": false,\n  \"code\": \"selection_required\",\n  \"message\": \"Error creating selection: SelectionType.{typeName} is not available\"\n}","total_tokens":492}
+{"id":"M1730","output_text":"{\"error\":\"Error executing tool: Parameter 'attributes': ${shadowed} are shared fields\",\"statusCode\":400}","total_tokens":562}
+{"id":"M1357","output_text":"{\"url\": \"${WEB_BASE_URL}/${path}\", \"markdown\": \"\", \"truncated\": false, \"error\": \"path must be a site-relative page path like docs/concept/monitor\"}","total_tokens":800}
+{"id":"M1728","output_text":"{\"error\":\"Error executing tool: entityType '${type.entityType()}' also requires ${missing}. Nothing was created.\",\"statusCode\":400}","total_tokens":583}
+{"id":"M1191","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error creating layer: No active document\"\n}","total_tokens":532}
+{"id":"M2536","output_text":"Version \"{req.version}\" not found for library \"{req.id}\". Available include: {sample}{more}.","total_tokens":487}
+{"id":"M0291","output_text":"{\"ok\":false,\"error\":\"RuntimeError: Xvnc exited early (code={xvnc.returncode}) — see {log_path}\"}","total_tokens":450}
+{"id":"M1971","output_text":"{\n  \"error\": \"The Mindwtr cloud API does not support person edits yet.\",\n  \"code\": \"validation_error\"\n}","total_tokens":519}
+{"id":"M1092","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Please provide a valid value from `options`. {pydantic_input_details_and_other_errors}.","total_tokens":805}
+{"id":"M2577","output_text":"Run \"${runId}\" not found. The API may not yet support looking up runs by their URL identifier.","total_tokens":480}
+{"id":"M1133","output_text":"Option '--connection-string' must be specified.","total_tokens":407}
+{"id":"M1633","output_text":"Data incompatible with files format.","total_tokens":512}
+{"id":"M2481","output_text":"Error: press_key: \"{combo}\" has more than one non-modifier key.","total_tokens":451}
+{"id":"M1788","output_text":"Error: The selected page has been closed.","total_tokens":434}
+{"id":"M2555","output_text":"Error: User '{args.Username}' not found\n\nUser '{args.Username}' not found.","total_tokens":528}
+{"id":"M0096","output_text":"","total_tokens":469}
+{"id":"M2331","output_text":"The browser download outcome is indeterminate.","total_tokens":812}
+{"id":"M2991","output_text":"Failed to execute tool manage_agent_triggers: block_reference_id is required for action:\"add\".","total_tokens":470}
+{"id":"M0773","output_text":"Error: {reason}{database_annotation}.","total_tokens":462}
+{"id":"M0671","output_text":"{\"result\": {\"ok\": false, \"error\": \"target must be one of ['both', 'react', 'webcomponent']\", \"target\": \"{target}\"}}","total_tokens":476}
+{"id":"M1588","output_text":"Unable to authenticate with MongoDB Atlas, API error: ${error.message}\n\nHint: Your API credentials may be invalid, expired or lack permissions.","total_tokens":526}
+{"id":"M2479","output_text":"Error: Connected to Firefox via Marionette, but the session has no WebDriver BiDi endpoint (missing webSocketUrl capability).","total_tokens":466}
+{"id":"M2457","output_text":"Error executing tool memory_store: MemoryShapeError: Paragraph break refused: a memory is one claim, and a text in paragraphs is several.","total_tokens":492}
+{"id":"M1388","output_text":"{\n  \"error\": \"fetch_failed\",\n  \"error_reason\": \"Connection timed out (ETIMEDOUT)\",\n  \"stage\": \"fetch\"\n}","total_tokens":494}
+{"id":"M0147","output_text":"Request denied by Google Maps API.","total_tokens":443}
+{"id":"M1731","output_text":"{\"error\":\"Error executing tool: Parameter 'attributes' must be an object mapping field names to values. Received: ${raw}\",\"statusCode\":400}","total_tokens":470}
+{"id":"M0536","output_text":"Actor \"{actorName}\" is a standby Actor, which is not supported in agentic payment mode.","total_tokens":494}
+{"id":"M0734","output_text":"[{tool-name}] Error: The request failed unexpectedly.","total_tokens":423}
+{"id":"M1173","output_text":"{\n  \"ok\": false,\n  \"code\": \"font_not_found\",\n  \"message\": \"font_not_found: {r.font}\"\n}","total_tokens":498}
+{"id":"M1704","output_text":"Rate limited (429). X throttles guest tokens aggressively.","total_tokens":529}
+{"id":"M1171","output_text":"Active layer is not a text layer","total_tokens":489}
+{"id":"M2657","output_text":"Failed to start Ollama container.\nDetails: ${msg}","total_tokens":595}
+{"id":"M2456","output_text":"Error executing tool memory_store_many: facts[{i}]: {body_len} characters refused: a memory is ONE claim of at most {max_chars}.","total_tokens":528}
+{"id":"M2352","output_text":"{\"status\":404,\"message\":\"Could not find tenant with name {tenantName}.\",\"results\":{\"message\":\"Could not find tenant with name {tenantName}\",\"type\":\"KeyNotFoundException\"},\"duration\":{duration_ms}}","total_tokens":556}
+{"id":"M0028","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_ACCOUNT\",\"message\":\"unknown account {JSON.stringify(name)} — no accounts are configured\",\"retryable\":false}}","total_tokens":632}
+{"id":"M1529","output_text":"new_threshold and new_ttl_seconds are mutually exclusive — provide exactly one","total_tokens":419}
+{"id":"M1168","output_text":"{\n  \"ok\": false,\n  \"code\": \"unknown\",\n  \"message\": \"Cannot apply filters to text or Smart Object layers\"\n}","total_tokens":575}
+{"id":"M2364","output_text":"{\"status\":400,\"message\":\"Multiple tenants are accessible, so the tenant to query cannot be inferred.\",\"results\":{\"message\":\"Multiple tenants are accessible, so the tenant to query cannot be inferred.\",\"type\":\"ArgumentException\"},\"duration\":{duration_ms}}","total_tokens":660}
+{"id":"M1184","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error placing image: No active document\"\n}","total_tokens":519}
+{"id":"M0337","output_text":"{toolName}: Error: 🔌 TouchDesigner Connection Failed\n\nCannot connect to TouchDesigner API server at the configured address.\n\nPossible causes:\n  1. TouchDesigner is not running\n\n  2. WebServer DAT is not active\n\n  3. Wrong port configuration\n\nOriginal error: ${error}","total_tokens":758}
+{"id":"M1545","output_text":"Error: Invalid arguments for perplexity_reason: 'messages' must be an array","total_tokens":517}
+{"id":"M1132","output_text":"Option '--provider' must be specified.","total_tokens":405}
+{"id":"M2129","output_text":"Error executing tool {tool_name}: SerenaClientError: This operation requires Serena JetBrains plugin version {'.'.join(map(str, version_parts))} or higher, but the installed version is {self._plugin_version}.","total_tokens":506}
+{"id":"M2474","output_text":"Error: Firefox for Android mode wipes all data of {androidPackage} on the device: tabs, history, bookmarks, passwords, cookies and settings are all lost, because geckodriver clears the app data before every session and cannot be configured to skip it.","total_tokens":555}
+{"id":"M0861","output_text":"Error executing tool play_audio: ffplay from ffmpeg not found, necessary to play audio.","total_tokens":478}
+{"id":"M0353","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"meta_api_error\",\n  \"message\": \"Facebook API error\",\n  \"recoverable\": true\n}","total_tokens":531}
+{"id":"M2815","output_text":"invalid template ID, must be a valid UUID: ${uuid.Parse error}","total_tokens":443}
+{"id":"M2664","output_text":"LITELLM_API_KEY is required when EMBEDDING_PROVIDER=litellm.","total_tokens":489}
+{"id":"M1066","output_text":"{\n  \"error\": \"Tool '{name}' is disabled in this project's configuration.\"\n}","total_tokens":568}
+{"id":"M0864","output_text":"Failed to fetch official docs: Response looks malformed (got {(text.length/1024).toFixed(0)}KB, expected >500KB). The URL format may have changed.\n\n{tool-specific suffix}","total_tokens":533}
+{"id":"M2212","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Restore blocked: the pre-restore safety snapshot could not be captured. Nothing was changed.\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":619}
+{"id":"M0126","output_text":"{new_api_context_prefix}API key invalid or Places API (New) not enabled.{new_api_context_suffix}","total_tokens":499}
+{"id":"M2940","output_text":"Behavior tree has no root composite","total_tokens":536}
+{"id":"M1382","output_text":"{\n  \"error\": \"blocked_by_challenge\",\n  \"error_reason\": \"The site's bot protection served a challenge page that could not be cleared automatically\",\n  \"stage\": \"fetch\"\n}","total_tokens":532}
+{"id":"M2380","output_text":"Style \"{slug}\" exists but has no registered design tokens.","total_tokens":444}
+{"id":"M1856","output_text":"No renderable Semiotic chart was suggested for this data.","total_tokens":429}
+{"id":"M1167","output_text":"Cannot apply filters to the Background layer.","total_tokens":579}
+{"id":"M2030","output_text":"Error executing tool {name}:","total_tokens":492}
+{"id":"M0046","output_text":"{tool_error_prefix}Request to Figma API endpoint '{endpoint}' returned 403 Forbidden.{optional_response_body}\n\n{causes_header}\n- The access token is missing required scopes (File content: Read, Dev resources: Read)\n- The access token has been revoked, mistyped, or (for OAuth) expired — PATs don't expire, OAuth tokens do\n- The access token doesn't have permission to this specific file — it must be owned by or shared with the token's account, and for team/org files the account must belong to that team\n- The file's share settings don't allow viewers to copy/share/export\n- An HTTP intermediary (corporate proxy, firewall, VPN) rejected the request before it reached Figma\n\nNote: this server picked up a proxy from HTTP_PROXY/HTTPS_PROXY in your environment.","total_tokens":881}
+{"id":"M0775","output_text":"Error: {reason}{database_annotation}.","total_tokens":443}
+{"id":"M2026","output_text":"Error executing tool {name}: Login succeeded but no _xsrf cookie was set. XSRF-protected POST requests would deterministically fail; refusing to proceed.","total_tokens":511}
+{"id":"M2320","output_text":"Failed to capture accessibility snapshot: This browser operation is unsupported.","total_tokens":866}
+{"id":"M0358","output_text":"Error executing tool watch_video: Download failed.\nyt-dlp said:\n{reason[-800:]}","total_tokens":615}
+{"id":"M0882","output_text":"File not found or unavailable: \"{filePath}\"\n\nThis may be because:\n  • The file does not exist in the guide repo\n  • Network unavailable (running offline without cache)","total_tokens":521}
+{"id":"M2909","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint response had no token).","total_tokens":470}
+{"id":"M2763","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define at most 20 actions\"\n    }\n  ]\n}","total_tokens":505}
+{"id":"M0821","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}{optional \". \" for permission error}","total_tokens":547}
+{"id":"M2547","output_text":"Error: Asset with MRN '{mrn}' not found\n\nThe MRN may be incorrect.","total_tokens":490}
+{"id":"M2636","output_text":"${source} must match [a-zA-Z0-9_-]+ but got: \"${value}\"","total_tokens":440}
+{"id":"M2415","output_text":"{\n  \"status\": \"critical\",\n  \"timestamp\": \"{timestamp}\",\n  \"performance_grade\": \"{grade}\",\n  \"metrics\": {metrics},\n  \"analysis\": {analysis},\n  \"recommendations\": [{other_recommendations}]\n}","total_tokens":570}
+{"id":"M2362","output_text":"{\"status\":422,\"message\":\"The accessible Azure tenant does not have a tenant ID.\",\"results\":{\"message\":\"The accessible Azure tenant does not have a tenant ID.\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":632}
+{"id":"M1192","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error deleting layer: No active document\"\n}","total_tokens":497}
+{"id":"M2460","output_text":"Error executing tool memory_store_many: facts[{i}]: List refused: each list item is its own memory, one claim per record.","total_tokens":620}
+{"id":"M1453","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code 1).\nLast output before it stopped:","total_tokens":666}
+{"id":"M1405","output_text":"{\n  \"results\": [],\n  \"query\": \"{queryStr}\",\n  \"engines_used\": \"{enginesUsed}\",\n  \"total_time_ms\": \"{elapsed}\",\n  \"response_time_ms\": \"{elapsed}\",\n  \"search_time_ms\": \"{searchElapsed}\",\n  \"fetch_time_ms\": \"{fetchElapsed}\",\n  \"error\": \"no_content\",\n  \"error_reason\": \"No sources returned content for this query\",\n  \"stage\": \"synthesize\"\n}","total_tokens":622}
+{"id":"M1063","output_text":"{\"error\":\"Response too large: {name} produced {size:,} bytes, over the {limit:,}-byte single-response limit.\",\"tool\":\"{name}\",\"response_bytes\":\"{size}\",\"response_max_bytes\":\"{limit}\"}","total_tokens":634}
+{"id":"M2567","output_text":"Error: Team '{args.TeamID}' not found\n\nThe team ID may be incorrect.","total_tokens":483}
+{"id":"M0207","output_text":"{\"error\": {\"code\": \"no_content\", \"message\": \"Item has no readable content\"}}","total_tokens":504}
+{"id":"M2108","output_text":"Error executing tool rename_symbol: ValueError: Unhandled document change format: {change}","total_tokens":558}
+{"id":"M0725","output_text":"[{tool-name}] Error: A body measurement already exists for this date.","total_tokens":445}
+{"id":"M0763","output_text":"Failed to fetch project details: {error.message_or_Unknown_error}\n⚠️ Warning: No valid scope categories are set.","total_tokens":556}
+{"id":"M0506","output_text":"Failed to obtain Azure DevOps token.","total_tokens":491}
+{"id":"M2228","output_text":"Error: Optional wrapper module {name!r} requires the praisonai package.","total_tokens":450}
+{"id":"M2835","output_text":"**Error**\n\nThere was an HTTP {status} server error with the Sentry API.\n\nServer error: Received HTML instead of JSON ({status} {response.statusText}). This may indicate an invalid URL or server issue.\n\n**Event ID**: {eventId}","total_tokens":511}
+{"id":"M2877","output_text":"conversationId: {resolvedConversationId}\n\nError: Lease repair requires a detailed audit reason.","total_tokens":434}
+{"id":"M1187","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error saving document: No active document\"\n}","total_tokens":564}
+{"id":"M2227","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is invalid\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":687}
+{"id":"M2654","output_text":"Cannot reach external Qdrant at ${baseUrl}.","total_tokens":453}
+{"id":"M0071","output_text":"Error: could not load the shape search index (HTTP {res.status}).","total_tokens":444}
+{"id":"M1601","output_text":"Authentication failure: ${error.message}","total_tokens":498}
+{"id":"M1781","output_text":"Could not connect to Chrome in {userDataDir}.\nCause: Invalid port '{rawPort}' found","total_tokens":628}
+{"id":"M2831","output_text":"**Input Error**\n\nThere was an HTTP {status} error with your request to the Sentry API.\n\nAPI error ({status}): Server error: Received HTML instead of JSON ({status} {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":529}
+{"id":"M2356","output_text":"{\"status\":422,\"message\":\"Multiple subscriptions found with name {subscriptionName}.\",\"results\":{\"message\":\"Multiple subscriptions found with name {subscriptionName}.\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":612}
+{"id":"M0596","output_text":"Error executing tool browser_select_option:","total_tokens":469}
+{"id":"M2564","output_text":"Error: No data product named '{name}' found\n\nThe name may be incorrect.","total_tokens":573}
+{"id":"M2346","output_text":"### JSON_RESULT\n```json\n{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"details\": {\"tool_name\": \"page_dialog_observe\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\", \"ok\": false}\n```\n### Error\nFailed to observe page dialog: This browser operation is unsupported.","total_tokens":956}
+{"id":"M0316","output_text":"{toolName}: Error: ⚠️  TouchDesigner API Server Update Required\n\nCurrent:  ${args.apiVersion}\nRequired: ${args.minRequired}+\n\nYour TouchDesigner components are outdated and may not support all features.","total_tokens":704}
+{"id":"M2506","output_text":"{\"error\":\"COMFYUI_HTTP_TIMEOUT\",\"message\":\"No reply from ComfyUI within {timeout_s}s — while requesting {url} (GET). Nothing was learned about the server from this — a timeout is not a refusal and not a \\\"not found\\\". Whether a connection was ever established is NOT known from this: the budget covers connecting, the request and the reply alike.\",\"details\":{\"endpoint\":\"/system_stats\",\"timeout_ms\":{SYSTEM_STATS_TIMEOUT_MS}}}","total_tokens":819}
+{"id":"M0767","output_text":"Error: The \"{check}\" diagnostic failed against Postgres: {error.message}{database_annotation}.","total_tokens":455}
+{"id":"M2984","output_text":"Failed to execute tool manage_agent_skills: agent_id is required for action:\"add\".","total_tokens":428}
+{"id":"M0726","output_text":"[{tool-name}] Error: A conflict occurred because the resource already exists or conflicts with the current server state.","total_tokens":465}
+{"id":"M1612","output_text":"Returned dictionary included some keys as Components.","total_tokens":477}
+{"id":"M0914","output_text":"Error executing tool key_down: Key must be one of ['\\t', '\\n', '\\r', ' ', '!', '\"', '#', '$', '%', '&', \"'\", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~', 'accept', 'add', 'alt', 'altleft', 'altright', 'apps', 'backspace', 'browserback', 'browserfavorites', 'browserforward', 'browserhome', 'browserrefresh', 'browsersearch', 'browserstop', 'capslock', 'clear', 'convert', 'ctrl', 'ctrlleft', 'ctrlright', 'decimal', 'del', 'delete', 'divide', 'down', 'end', 'enter', 'esc', 'escape', 'execute', 'f1', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f2', 'f20', 'f21', 'f22', 'f23', 'f24', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'final', 'fn', 'hanguel', 'hangul', 'hanja', 'help', 'home', 'insert', 'junja', 'kana', 'kanji', 'launchapp1', 'launchapp2', 'launchmail', 'launchmediaselect', 'left', 'modechange', 'multiply', 'nexttrack', 'nonconvert', 'num0', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7', 'num8', 'num9', 'numlock', 'pagedown', 'pageup', 'pause', 'pgdn', 'pgup', 'playpause', 'prevtrack', 'print', 'printscreen', 'prntscrn', 'prtsc', 'prtscr', 'return', 'right', 'scrolllock', 'select', 'separator', 'shift', 'shiftleft', 'shiftright', 'sleep', 'stop', 'subtract', 'tab', 'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen', 'command', 'option', 'optionleft', 'optionright']","total_tokens":1691}
+{"id":"M1852","output_text":"No chart capability registered for \"{component}\".","total_tokens":430}
+{"id":"M1362","output_text":"{\"url\": \"${WEB_BASE_URL}/${path}\", \"markdown\": \"\", \"truncated\": false, \"error\": \"path must start with docs/, guides/ or changelog/\"}","total_tokens":482}
+{"id":"M1042","output_text":"{\"error\":\"Failed to embed query: Vocabulary file not found at {vocab_path}.\"}","total_tokens":497}
+{"id":"M0221","output_text":"{\"success\": false, \"project_dir\": \"{absolute_project_dir}\", \"target\": \"{target_name_from_yaml}\", \"logs\": \"{traceback_frames_chained_causes_and_optional_group_prefix}atopile.errors.UserException: Entry point `{entry_section}` not found in `{entry_file.name}`.\\n\\nNo modules, components, or interfaces were found in this file.\\n\\n{config_file}\\n{optional_group_suffix}\"}","total_tokens":784}
+{"id":"M2454","output_text":"Error executing tool {tool}: ModelError: onnxruntime cannot load: this Windows machine is missing the Microsoft Visual C++ runtime it is built against.","total_tokens":539}
+{"id":"M2752","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define 1 to 40 columns\"\n    }\n  ]\n}","total_tokens":465}
+{"id":"M2194","output_text":"Error: Cannot communicate with the local DeepCode service (HTTP {exc.response.status_code})\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":488}
+{"id":"M0816","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}.","total_tokens":511}
+{"id":"M0525","output_text":"Error running pipeline: Parameter 'yamlOverride' can only be specified together with parameter 'previewRun'.","total_tokens":472}
+{"id":"M0551","output_text":"Actor '{actorName}' was not found.","total_tokens":502}
+{"id":"M2787","output_text":"{\"result\": {\"error\": \"episode_uuids must contain at least one UUID\"}}","total_tokens":521}
+{"id":"M2853","output_text":"conversationId: {resolvedConversationId}\n\nError: Cron expressions must use standard 5-field syntax: minute hour day-of-month month day-of-week.","total_tokens":451}
+{"id":"M0035","output_text":"{intent.symbol} is not a market on {exchange.id}","total_tokens":542}
+{"id":"M0640","output_text":"Error: Stored workflow state is invalid.","total_tokens":417}
+{"id":"M2467","output_text":"Error executing tool {tool}: VaultLockedError: Vault is locked.","total_tokens":477}
+{"id":"M2565","output_text":"Error: No data product named '{name}' found","total_tokens":543}
+{"id":"M0785","output_text":"Caught Exception. Error: Ambiguous heading '{target}'. Candidates: {', '.join(candidates)}.","total_tokens":450}
+{"id":"M2514","output_text":"{\"error\":\"SETTINGS_UNSUPPORTED\",\"message\":\"This ComfyUI version/config does not expose the user settings API (requires the standard frontend user manager).\"}","total_tokens":511}
+{"id":"M2748","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"enum values must be non-empty\"\n    }\n  ]\n}","total_tokens":465}
+{"id":"M2289","output_text":"Error: App Distribution could not find your app {appName}.","total_tokens":468}
+{"id":"M0992","output_text":"{\n  \"success\": false,\n  \"id\": {id},\n  \"status\": \"failed\",\n  \"outputReady\": false,\n  \"error\": {run.error}\n}\nThe Agent run failed.","total_tokens":514}
+{"id":"M2413","output_text":"{\n  \"status\": \"critical\",\n  \"timestamp\": \"{timestamp}\",\n  \"performance_grade\": \"{grade}\",\n  \"metrics\": {metrics},\n  \"analysis\": {analysis},\n  \"recommendations\": [{other_recommendations}]\n}","total_tokens":519}
+{"id":"M2463","output_text":"Error executing tool memory_store: MemoryShapeError: Markdown emphasis refused: a memory is plain prose read back by a model.","total_tokens":580}
+{"id":"M1465","output_text":"Error executing tool {name}: Diagram generation reported success but {produced.name} was not found.","total_tokens":477}
+{"id":"M1023","output_text":"Error executing tool {tool_name}: Error: Project path not set.","total_tokens":449}
+{"id":"M1974","output_text":"{\n  \"error\": \"{label} changed during attachment link update after 3 attempts\",\n  \"code\": \"internal_error\"\n}","total_tokens":552}
+{"id":"M2906","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint returned non-JSON). otel-logs requires a signed-in identity.","total_tokens":543}
+{"id":"M0761","output_text":"Failed to fetch organization details: {error.message_or_Unknown_error}\n⚠️ Warning: No valid scope categories are set. Only the \"search\" and \"fetch\" tools are available.","total_tokens":537}
+{"id":"M0879","output_text":"No snapshot found.","total_tokens":428}
+{"id":"M2846","output_text":"**Authorization Expired**\n\nSentry rejected the stored access token for this session.","total_tokens":458}
+{"id":"M0504","output_text":"Environment variable 'ADO_MCP_AUTH_TOKEN' is not set or empty.","total_tokens":509}
+{"id":"M2911","output_text":"{bdir} already exists and was not created by this tool.","total_tokens":461}
+{"id":"M2867","output_text":"Error: expires_at requires a valid ISO 8601 calendar date.","total_tokens":439}
+{"id":"M2343","output_text":"{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"details\": {\"tool_name\": \"page_dialog_respond\"}, \"message\": \"This browser operation is unsupported.\"}, \"message\": \"This browser operation is unsupported.\", \"ok\": false}\n\n### Error\nThis browser operation is unsupported.","total_tokens":756}
+{"id":"M0039","output_text":"{\"ok\":false,\"error\":{\"code\":\"ORDER_VALUE_CAP\",\"message\":\"order value ≈ {valuation.value.toFixed(2)} {valuation.currency} exceeds the maxOrderValue cap of {cap} on account {JSON.stringify(account.name)}\",\"retryable\":false}}","total_tokens":605}
+{"id":"M2359","output_text":"{\"status\":404,\"message\":\"Resource group '{resourceGroup}' does not exist in subscription '{subscriptionResource.Data.SubscriptionId}'.\",\"results\":{\"message\":\"Resource group '{resourceGroup}' does not exist in subscription '{subscriptionResource.Data.SubscriptionId}'\",\"type\":\"KeyNotFoundException\"},\"duration\":{duration_ms}}","total_tokens":608}
+{"id":"M0143","output_text":"API quota exceeded.","total_tokens":495}
+{"id":"M1737","output_text":"{\"error\":\"Error executing tool: ${boundedMessage}\",\"statusCode\":${statusCode}}","total_tokens":512}
+{"id":"M1014","output_text":"Error executing tool search_code_advanced: Operation failed: Search failed using 'ag': 'ag' (The Silver Searcher) not found.","total_tokens":474}
+{"id":"M2339","output_text":"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.\n\nHTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":820}
+{"id":"M0033","output_text":"{\"ok\":false,\"error\":{\"code\":\"SYMBOL_DENIED\",\"message\":\"{symbol} is in the deniedSymbols list of account {JSON.stringify(account.name)}. This cannot be enabled from the conversation.\",\"retryable\":false,\"hint\":\"\"}}","total_tokens":580}
+{"id":"M2535","output_text":"Library \"{req.id}\" not found for language \"{language}\".","total_tokens":421}
+{"id":"M2221","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot {name!r} is not a YAML mapping\"\n  },\n  \"backup_name\": \"{backup_name}\"\n}","total_tokens":603}
+{"id":"M0870","output_text":"Failed to fetch official docs: {err.message or String(err)}","total_tokens":421}
+{"id":"M1080","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, {pydantic_input_details_and_other_errors}.","total_tokens":540}
+{"id":"M0036","output_text":"{\"ok\":false,\"error\":{\"code\":\"MARKET_INACTIVE\",\"message\":\"{intent.symbol} is not active on {exchange.id}\",\"retryable\":false}}","total_tokens":485}
+{"id":"M1659","output_text":"The target page has manual changes.","total_tokens":437}
+{"id":"M0345","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"subscription_required\",\n  \"message\": {error_data.get('message', 'This feature is not available in your current plan')}\n}","total_tokens":620}
+{"id":"M2812","output_text":"invalid workspace ID, must be a valid UUID: ${uuid.Parse error}","total_tokens":441}
+{"id":"M2296","output_text":"Error: Account {email} does not exist.","total_tokens":453}
+{"id":"M0664","output_text":"Error executing tool {name}: No credential supplied.","total_tokens":489}
+{"id":"M0120","output_text":"{\n  \"error\": \"No screen with slug '{slug}'.\"\n}","total_tokens":512}
+{"id":"M0436","output_text":"","total_tokens":521}
+{"id":"M1873","output_text":"Invalid connector type.","total_tokens":525}
+{"id":"M1164","output_text":"{\n  \"ok\": false,\n  \"code\": \"version_unsupported\",\n  \"message\": \"{format} export not available in this Photoshop build: {lastError}\"\n}","total_tokens":501}
+{"id":"M2448","output_text":"Error executing tool {tool}: CryptoError: Two-factor unlock is enabled on this vault: a keyfile is required alongside the passphrase","total_tokens":509}
+{"id":"M2838","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.","total_tokens":463}
+{"id":"M1831","output_text":"Capability matrix unavailable: ai/capabilities.json is missing. (Capability filtering requires the matrix.)","total_tokens":669}
+{"id":"M2124","output_text":"Error executing tool {tool_name}: SerenaConfigError: `projects` key not found in Serena configuration.","total_tokens":461}
+{"id":"M2894","output_text":"could not obtain a Netdata Cloud bearer (could not read {url}: {exc!r}). otel-logs requires a signed-in identity.","total_tokens":532}
+{"id":"M0364","output_text":"Error executing tool {toolName}: this memory index is schema v{found}, this build only knows v{SCHEMA_VERSION}","total_tokens":521}
+{"id":"M0556","output_text":"Failed to call Actor '{actorName}': {errMsg}","total_tokens":512}
+{"id":"M0023","output_text":"{\"ok\":false,\"error\":{\"code\":\"EXCHANGE_UNAVAILABLE\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":true,\"hint\":\"could not reach {context.exchange ?? the exchange} — this looks like a LOCAL network/DNS failure (often DNS/threadpool exhaustion from too many concurrent cold market loads or watch_subscribe calls), NOT necessarily an exchange outage\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":698}
+{"id":"M0101","output_text":"Error executing tool simulate_conversation: Evaluation criterion missing fields {missing}.","total_tokens":413}
+{"id":"M2297","output_text":"Error: Invalid project selection.","total_tokens":469}
+{"id":"M1078","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Please provide a valid value between the min and max value. {pydantic_input_details_and_other_errors}.","total_tokens":518}
+{"id":"M1165","output_text":"{\n  \"ok\": false,\n  \"code\": \"selection_required\",\n  \"message\": \"Active pixel selection required\"\n}","total_tokens":483}
+{"id":"M1598","output_text":"Bad Request: ${msg}\n\nInvalid field in $merge stage. $merge writes to Atlas clusters: {$merge: {into: {connectionName, db, coll}}}.","total_tokens":570}
+{"id":"M2541","output_text":"Compiler \"{resolvedCompilerId}\" not found for language \"{language}\".","total_tokens":442}
+{"id":"M0189","output_text":"{\"error\": {\"code\": \"source_not_found\", \"message\": \"Unknown source \\\"{source}\\\"\"}}","total_tokens":484}
+{"id":"M2349","output_text":"{\"status\":{status},\"message\":\"{ex.Message}.\",\"results\":{\"message\":\"{ex.Message}\",\"type\":\"{ex.GetType().Name}\"},\"duration\":{duration_ms}}","total_tokens":540}
+{"id":"M2930","output_text":"Automation request rejected: this session already has the maximum number of queued requests.","total_tokens":477}
+{"id":"M2684","output_text":"failed to refresh token","total_tokens":570}
+{"id":"M2550","output_text":"Error: No search criteria provided","total_tokens":482}
+{"id":"M2361","output_text":"{\"status\":{status},\"message\":\"{RequestFailedException(response).Message}.\",\"results\":{\"message\":\"{RequestFailedException(response).Message}\",\"type\":\"RequestFailedException\"},\"duration\":{duration_ms}}","total_tokens":512}
+{"id":"M0111","output_text":"Error executing tool compose_music: music_length_ms cannot be used if composition_plan is provided","total_tokens":423}
+{"id":"M1188","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error saving document: No active document\"\n}","total_tokens":498}
+{"id":"M2833","output_text":"**Input Error**\n\nThere was an HTTP {status} error with your request to the Sentry API.\n\nAPI error ({status}): Server error: Received HTML instead of JSON ({status} {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":525}
+{"id":"M0350","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"resource_not_found\",\n  \"message\": \"{resource_type.title()} not found or access denied\"\n}","total_tokens":511}
+{"id":"M1968","output_text":"Error executing tool {tool}: {path.name} does not exist","total_tokens":477}
+{"id":"M1727","output_text":"{\"error\":\"Error executing tool: Parameters ${unsupported} are not supported for entityType '${type.entityType()}'. Nothing was created. Supported for this type: ${DescribeEntityTypeTool.sharedFor(type)}.\",\"statusCode\":400}","total_tokens":576}
+{"id":"M1126","output_text":"Cannot create database provider '{provider}'.","total_tokens":459}
+{"id":"M2975","output_text":"Failed to execute tool manage_agent_knowledge: resource_id, scope_type, and permission_type are required for action:add","total_tokens":500}
+{"id":"M0855","output_text":"Error executing tool play_audio: File path must be an absolute path if MINIMAX_MCP_BASE_PATH is not set","total_tokens":480}
+{"id":"M2338","output_text":"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":941}
+{"id":"M2665","output_text":"EMBEDDING_MODEL is required when EMBEDDING_PROVIDER=litellm.","total_tokens":522}
+{"id":"M0634","output_text":"Error: Stored workflow state is invalid.","total_tokens":424}
+{"id":"M0980","output_text":"Error executing tool download_dblp: dblp doesn't provide direct PDF access.","total_tokens":438}
+{"id":"M1120","output_text":"Analysis failed for every batch — upstream storm.","total_tokens":536}
+{"id":"M0416","output_text":"{message}: GitHub API rate limit exceeded.","total_tokens":476}
+{"id":"M2128","output_text":"Error executing tool {tool_name}: ServerNotFoundError: Found no Serena service in a JetBrains IDE instance for the project at {project_root}.","total_tokens":534}
+{"id":"M0097","output_text":"Error executing tool text_to_sound_effects: Duration must be between 0.5 and 5 seconds","total_tokens":434}
+{"id":"M0027","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_EXCHANGE\",\"message\":\"unknown exchange id {JSON.stringify(exchangeId)}\",\"retryable\":false}}","total_tokens":509}
+{"id":"M0047","output_text":"{tool_error_prefix}Request to Figma API endpoint '{endpoint}' returned 403 Forbidden.{optional_response_body}\n\n{causes_header}\n- The access token is missing required scopes (File content: Read, Dev resources: Read)\n- The access token has been revoked, mistyped, or (for OAuth) expired — PATs don't expire, OAuth tokens do\n- The access token doesn't have permission to this specific file — it must be owned by or shared with the token's account, and for team/org files the account must belong to that team\n- The file's share settings don't allow viewers to copy/share/export\n- An HTTP intermediary (corporate proxy, firewall, VPN) rejected the request before it reached Figma","total_tokens":799}
+{"id":"M2299","output_text":"Error: Invalid project selection","total_tokens":506}
+{"id":"M1506","output_text":"Instance '${instanceId}' not found.","total_tokens":411}
+{"id":"M2291","output_text":"Error: must specify a release binary file","total_tokens":405}
+{"id":"M0643","output_text":"Error: Stored workflow state is invalid.","total_tokens":417}
+{"id":"M0656","output_text":"Error: At least --view or --path is required.","total_tokens":490}
+{"id":"M2533","output_text":"Library \"{req.id}\" not found for language \"{language}\".","total_tokens":421}
+{"id":"M2369","output_text":"{\"status\":400,\"message\":\"Required parameter{missingParams.Length > 1 ? \\\"s are\\\" : \\\" is\\\"} null or empty: {string.Join(\\\", \\\", missingParams)}. \",\"results\":{\"message\":\"Required parameter{missingParams.Length > 1 ? \\\"s are\\\" : \\\" is\\\"} null or empty: {string.Join(\\\", \\\", missingParams)}\",\"type\":\"ArgumentException\"},\"duration\":{duration_ms}}","total_tokens":614}
+{"id":"M1464","output_text":"Error executing tool {name}: Unsupported format {format!r}.","total_tokens":568}
+{"id":"M2444","output_text":"Error executing tool {tool}: TamperError: Sealed blob is truncated. The stored credential does not open this vault.","total_tokens":500}
+{"id":"M2844","output_text":"**Input Error**\n\nThere was an HTTP 403 error with your request to the Sentry API.\n\nAPI error (403): You do not have access to query across multiple projects. Please select a project for your query.","total_tokens":502}
+{"id":"M2301","output_text":"Error: intervalStartTime must be less than 90 days in the past","total_tokens":444}
+{"id":"M2551","output_text":"Error: Ambiguous query\n\nProvide either asset_id OR owner identifiers, not both.","total_tokens":477}
+{"id":"M1782","output_text":"Could not connect to Chrome in {userDataDir}.\nCause: {error.message}","total_tokens":460}
+{"id":"M2987","output_text":"Failed to execute tool manage_agent_skills: agent_id is required for action:\"remove\".","total_tokens":427}
+{"id":"M2652","output_text":"","total_tokens":606}
+{"id":"M0032","output_text":"{\"ok\":false,\"error\":{\"code\":\"SYMBOL_NOT_ALLOWED\",\"message\":\"{symbol} is not in the allowedSymbols list of account {JSON.stringify(account.name)} ({allowed.join(\\\", \\\")}).\",\"retryable\":false,\"hint\":\"\"}}","total_tokens":593}
+{"id":"M2310","output_text":"Error: Invalid firebase.json: dataconnect should be of the form { source: string }","total_tokens":433}
+{"id":"M2794","output_text":"workspace name cannot be empty","total_tokens":413}
+{"id":"M0877","output_text":"No baseline found.","total_tokens":409}
+{"id":"M1452","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code None).\nLast output before it stopped:\n{earlier retained output lines, if any}\nERROR: No variable value supplied for var.{varname} in {directory_basename}/{filename_basename}","total_tokens":582}
+{"id":"M2762","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define at most 10 models\"\n    }\n  ]\n}","total_tokens":468}
+{"id":"M2321","output_text":"### JSON_RESULT\n```json\n{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"details\": {\"tool_name\": \"page_accessibility_snapshot\"}, \"message\": \"Failed to capture accessibility snapshot: This browser operation is unsupported.\"}, \"message\": \"Failed to capture accessibility snapshot: This browser operation is unsupported.\", \"ok\": false}\n```\n### Error\nFailed to capture accessibility snapshot: This browser operation is unsupported.","total_tokens":835}
+{"id":"M2491","output_text":"Error: Download tracking not available (requires a recent Firefox with the Remote Agent running to enable BiDi)","total_tokens":460}
+{"id":"M2888","output_text":"could not obtain a Netdata Cloud bearer (no agents[0] in /api/v3/info).","total_tokens":586}
+{"id":"M2830","output_text":"**Input Error**\n\nThere was an HTTP 404 error with your request to the Sentry API.\n\nAPI error (404): Server error: Received HTML instead of JSON (404 {response.statusText}). This may indicate an invalid URL or server issue..","total_tokens":593}
+{"id":"M2337","output_text":"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":713}
+{"id":"M0553","output_text":"{error.message}","total_tokens":432}
+{"id":"M0325","output_text":"get_top_image: Error: get_top_image: expected a base64 string result for {nodePath}, got {typeof base64Data}.","total_tokens":488}
+{"id":"M2765","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define at most 20 reusable elements\"\n    }\n  ]\n}","total_tokens":480}
+{"id":"M0738","output_text":"[{tool-name}] Error: No measurement fields provided.","total_tokens":460}
+{"id":"M2587","output_text":"Could not determine the current git branch.","total_tokens":437}
+{"id":"M2214","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Template helper restore was not attempted\",\n    \"suggestion\": \"\",\n    \"backup_name\": \"{backup_name}\",\n    \"data\": {\n      \"restored_from\": \"{backup_name}\",\n      \"domain\": \"helper_template\",\n      \"entity_id\": \"{entity_id}\",\n      \"safety_backup\": null,\n      \"apply_status\": \"not_applied\",\n      \"verification_status\": \"not_run\",\n      \"reason\": \"backup_capture_failed\"\n    }\n  }\n}","total_tokens":728}
+{"id":"M2649","output_text":"Failed to download Qdrant image.\nDetails: ${msg}","total_tokens":539}
+{"id":"M0270","output_text":"Error: Authentication failed.","total_tokens":417}
+{"id":"M1262","output_text":"Error executing tool vectorise: {traceback_frames_and_exception_chain}\nIndexError: Failed to create the collection due to hash collision.","total_tokens":457}
+{"id":"M0765","output_text":"Failed to fetch branch details: {error.message_or_Unknown_error}\n⚠️ Warning: No valid scope categories are set. Only the \"search\" and \"fetch\" tools are available.","total_tokens":595}
+{"id":"M2591","output_text":"Invalid shortLink format: ${params.shortLink}. Expected format like \"abc123-def456\".","total_tokens":433}
+{"id":"M2822","output_text":"**Input Error**\n\nIt looks like there was a problem with the input you provided.\n\nInvalid identifier \"{value}\": relative path segments are not allowed.","total_tokens":478}
+{"id":"M2510","output_text":"{\"error\":\"WORKFLOW_EXECUTION_ERROR\",\"message\":\"{base: ComfyUI rejected the workflow ({status}) and node validation lines}\\n\\nThat input names a FILE on the server, not a free value: on stock ComfyUI {where} is a server-side FILE selector, resolved against the media directories of the ComfyUI at {origin} — so this is a question about WHICH server holds the file, not about the value's spelling. A file ATTACHED in the panel's chat is uploaded by the BROWSER to whichever ComfyUI that tab is on, a separate connection from this headless target (COMFYUI_URL), so a file can exist on one and not the other.{describeMissingInputMediaDrift(target)} Re-submitting this workflow unchanged will fail identically — enqueue_workflow sends loader values through verbatim and never rewrites them.\",\"details\":{\"status\":{status},\"error\":{payload.error},\"node_errors\":{nodeErrors}}}","total_tokens":1127}
+{"id":"M0030","output_text":"{\"ok\":false,\"error\":{\"code\":\"TIER_DISABLED\",\"message\":\"{capitalized(tier)} is not enabled for account {JSON.stringify(account.name)}. This cannot be enabled from the conversation.\",\"retryable\":false}}","total_tokens":749}
+{"id":"M1179","output_text":"{\n  \"ok\": false,\n  \"code\": \"document_not_found\",\n  \"message\": \"Document index out of range: {__targetIndex} (open count: {app.documents.length})\"\n}","total_tokens":543}
+{"id":"M2206","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"'{tool_name}' requires a pre-write backup, but the snapshot could not be captured: could not read the current state of {key} to back it up: {type(err).__name__}: {err}. The write was blocked and nothing was changed.\"\n  },\n  \"tool_name\": \"{tool_name}\"\n}","total_tokens":606}
+{"id":"M2639","output_text":".socraticodecontextartifacts.json: \"artifacts\" must be an array","total_tokens":429}
+{"id":"M2393","output_text":"{\"schemaVersion\":1,\"error\":{\"code\":\"INVALID_RANGE\",\"message\":\"{field} must be an integer between {minimum} and {maximum}.\",\"details\":{\"field\":\"{field}\",\"minimum\":\"{minimum}\",\"maximum\":\"{maximum}\"}}}","total_tokens":529}
+{"id":"M2757","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"default must be a valid ${prop.kind} value\"\n    }\n  ]\n}","total_tokens":488}
+{"id":"M2907","output_text":"could not mint a bearer (Cloud mint response had no token).","total_tokens":471}
+{"id":"M2795","output_text":"command cannot be empty","total_tokens":408}
+{"id":"M2852","output_text":"conversationId: {resolvedConversationId}\n\nError: Invalid IANA timezone \"{timezone}\".","total_tokens":472}
+{"id":"M2891","output_text":"could not obtain a Netdata Cloud bearer (agent identity incomplete (mg/nd/claim_id)). otel-logs requires a signed-in identity.","total_tokens":637}
+{"id":"M1085","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader options must be a nested dictionary (not a list). {pydantic_input_details_and_other_errors}.","total_tokens":523}
+{"id":"M2178","output_text":"Error: Installed service path is missing: {target}\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":623}
+{"id":"M0448","output_text":"Error executing tool {name}: {field} must be 64 lowercase hex characters.","total_tokens":438}
+{"id":"M1591","output_text":"Resource not found: ${error.message}","total_tokens":428}
+{"id":"M1729","output_text":"{\"error\":\"Error executing tool: Parameter 'attributes': ${unknown} not accepted by entityType '${type.entityType()}'. Accepted: ${accepted}. Nothing was created.\",\"statusCode\":400}","total_tokens":563}
+{"id":"M2825","output_text":"**Configuration Error**\n\nThere appears to be a configuration issue with your setup.\n\nUnable to connect to {url} - Hostname not found.","total_tokens":537}
+{"id":"M2897","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint HTTP {exc.code}: <error body unavailable>).","total_tokens":497}
+{"id":"M0758","output_text":"Invalid ID format: \"{id}\".","total_tokens":645}
+{"id":"M1715","output_text":"{\"error\":\"Error executing tool: Parameter 'extension' must be an object mapping custom property names to values. Received: ${raw}\",\"statusCode\":400}","total_tokens":454}
+{"id":"M1415","output_text":"Error: Failed to create cloud browser: Timeout while creating cloud browser.","total_tokens":436}
+{"id":"M1469","output_text":"Error executing tool {name}: ProviderDetectionError: Provider detection has not been run or failed.","total_tokens":454}
+{"id":"M2754","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must define at most 4 sources\"\n    }\n  ]\n}","total_tokens":484}
+{"id":"M2889","output_text":"could not mint a bearer (agent identity incomplete (mg/nd/claim_id)","total_tokens":658}
+{"id":"M1820","output_text":"","total_tokens":455}
+{"id":"M2643","output_text":".socraticodecontextartifacts.json: artifacts[${i}].description must be a non-empty string","total_tokens":433}
+{"id":"M0365","output_text":"Error executing tool {toolName}: this memory index is schema v{now}, this build only knows v{SCHEMA_VERSION}","total_tokens":524}
+{"id":"M1315","output_text":"Error executing tool {tool}: jq filter timed out after 120s.","total_tokens":485}
+{"id":"M0863","output_text":"Failed to fetch official docs: HTTP {response.status} fetching https://code.claude.com/docs/llms-full.txt\n\n{tool-specific suffix}","total_tokens":521}
+{"id":"M2177","output_text":"Error: No macOS desktop login session is available\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":531}
+{"id":"M2293","output_text":"Error: File {path} does not exist","total_tokens":461}
+{"id":"M0142","output_text":"{legacy_context_prefix}API key invalid or required API not enabled.{legacy_context_suffix}","total_tokens":578}
+{"id":"M2298","output_text":"Error: Unable to use alias {clc.bold(projectOrAlias)}.","total_tokens":543}
+{"id":"M0417","output_text":"{message}: GitHub secondary rate limit exceeded.","total_tokens":442}
+{"id":"M2858","output_text":"Error: Once schedules must use an ISO 8601 UTC timestamp (for example 2026-04-17T15:00:00Z).","total_tokens":600}
+{"id":"M0649","output_text":"Error: Stored workflow state is invalid.","total_tokens":422}
+{"id":"M1177","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error getting document info: No active document\"\n}","total_tokens":497}
+{"id":"M0134","output_text":"{route_prefix}Route modifiers \"avoid_tolls\" and \"avoid_highways\" are only supported with mode \"driving\".","total_tokens":447}
+{"id":"M0659","output_text":"Error: At least --view or --path is required.","total_tokens":456}
+{"id":"M2715","output_text":"failed to get pod log: ${key} parameter must be an integer: expected integer, got ${Go type}","total_tokens":445}
+{"id":"M0037","output_text":"{\"ok\":false,\"error\":{\"code\":\"PRECISION_ERROR\",\"message\":\"{String(e?.message ?? e)}\",\"retryable\":false}}","total_tokens":476}
+{"id":"M2341","output_text":"{\"error\": {\"code\": \"PAGE_NAVIGATION_FAILED\", \"details\": {\"tool_name\": \"page_navigate_with_http_auth\"}, \"message\": \"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.\"}, \"message\": \"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.\", \"ok\": false}\n\n### Error\nHTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":954}
+{"id":"M1450","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code 1).\nLast output before it stopped:\n{earlier retained output lines, if any}\nERROR: Cannot connect to module registry.\n Code: {status_code} - {reason}","total_tokens":574}
+{"id":"M0025","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_EXCHANGE\",\"message\":\"unknown exchange id {JSON.stringify(exchangeId)}\",\"retryable\":false}}","total_tokens":502}
+{"id":"M2842","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.","total_tokens":479}
+{"id":"M0555","output_text":"Failed to call Actor '{actorName}': {errMsg}\nYou have reached your account limit for concurrent Actor runs.","total_tokens":525}
+{"id":"M0012","output_text":"{\"ok\":false,\"error\":{\"code\":\"RATE_LIMITED\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":true,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":539}
+{"id":"M2866","output_text":"conversationId: {resolvedConversationId}\n\nError: expires_at must use an ISO 8601 UTC timestamp (for example 2026-12-01T00:00:00Z).","total_tokens":476}
+{"id":"M1303","output_text":"DBT_HOST ('{actual_host}') appears to already contain an account prefix ('{result.mismatched_prefix}') that differs from the configured prefix '{actual_host_prefix}'.","total_tokens":509}
+{"id":"M2348","output_text":"{\"status\":{status},\"message\":\"{ex.Message}.\",\"results\":{\"message\":\"{ex.Message}\",\"type\":\"{ex.GetType().Name}\"},\"duration\":{duration_ms}}","total_tokens":535}
+{"id":"M2638","output_text":".socraticodecontextartifacts.json must be a JSON object","total_tokens":417}
+{"id":"M0121","output_text":"{\n  \"error\": \"No screen with slug '{slug}'.\",\n  \"didYouMean\": [\n    \"{matching_slugs}\"\n  ]\n}","total_tokens":535}
+{"id":"M0995","output_text":"agent_run error:","total_tokens":556}
+{"id":"M0998","output_text":"Failed to start research task.","total_tokens":405}
+{"id":"M2396","output_text":"File path must be provided for parameter: {param}","total_tokens":441}
+{"id":"M1401","output_text":"{\n  \"error\": \"browser_engine_unavailable\",\n  \"error_reason\": \"browser engine required for this page but not installed\",\n  \"stage\": \"fetch\"\n}","total_tokens":611}
+{"id":"M2307","output_text":"Error: No SQL Connect services found in firebase.json.","total_tokens":430}
+{"id":"M2743","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"enum values must be non-empty\"\n    }\n  ]\n}","total_tokens":468}
+{"id":"M1002","output_text":"agent_run error (404): {apiMessage}\n\nRun not found or not visible to this API key.","total_tokens":468}
+{"id":"M0836","output_text":"{search-only prefix: All configured SearXNG instances failed. {instanceUrl}: }🔒 SSL/TLS Error: Certificate verification failed for {target} ({causeCode}). {search-only other instance failures/skipped details}","total_tokens":514}
+{"id":"M1962","output_text":"Error executing tool {tool}: model pagination cursor is stale.","total_tokens":454}
+{"id":"M0355","output_text":"Error executing tool {toolName}: {\n  \"error\": \"request_timeout\",\n  \"message\": \"Request to duplication service timed out\",\n  \"details\": {\n    \"timeout\": \"120 seconds\"\n  }\n}","total_tokens":518}
+{"id":"M2340","output_text":"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":715}
+{"id":"M0802","output_text":"Caught Exception. Error:","total_tokens":518}
+{"id":"M1544","output_text":"Error: Invalid arguments for perplexity_research: 'messages' must be an array","total_tokens":428}
+{"id":"M2904","output_text":"could not mint a bearer (Cloud mint returned non-JSON).","total_tokens":468}
+{"id":"M1705","output_text":"{\n  \"error\": \"HTTP ${res.status} on ${endpoint} while unauthenticated. X restricts this endpoint to logged-in sessions.\"\n}","total_tokens":557}
+{"id":"M0685","output_text":"Error executing tool loki_memory_redact: loki_memory_redact requires LOKI_MANAGED_AGENTS=true and LOKI_MANAGED_MEMORY=true","total_tokens":647}
+{"id":"M0537","output_text":"Error calling tool \"{toolName}\": Actor {realActorId} declares a webServerMcpPath that resolves outside its standby origin.","total_tokens":587}
+{"id":"M2484","output_text":"Error: pressKey: uid {uid} cannot receive keyboard focus.","total_tokens":442}
+{"id":"M2653","output_text":"QDRANT_API_KEY is set but ${baseUrl} is not HTTPS. Refusing to send the API key over a non-TLS connection.","total_tokens":534}
+{"id":"M2818","output_text":"chat_id is required","total_tokens":402}
+{"id":"M2492","output_text":"Error: Download tracking not available (requires a recent Firefox with the Remote Agent running to enable BiDi)","total_tokens":443}
+{"id":"M1596","output_text":"Bad Request: ${msg}","total_tokens":462}
+{"id":"M0644","output_text":"Error: At least --view or --path is required.","total_tokens":509}
+{"id":"M1072","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Button cannot have both `href` and `actions` defined. {pydantic_input_details_and_other_errors}.","total_tokens":507}
+{"id":"M0688","output_text":"{\"success\":false,\"error\":\"No session files found.\\nSearched directories:\\n- {hooksDataPath}\\n- {globalHooksPath}\"}","total_tokens":547}
+{"id":"M2029","output_text":"Error executing tool {name}: No cell {cell_id!r} in this notebook. It was deleted, or it belongs to another notebook.","total_tokens":473}
+{"id":"M0367","output_text":"Error processing query.","total_tokens":404}
+{"id":"M1834","output_text":"{label} exceeded {limitMs} ms timeout budget ({observedMs ?? 0} ms).","total_tokens":496}
+{"id":"M1688","output_text":"{\n  \"error\": \"Unknown LLM provider \\\"${provider}\\\".\"\n}","total_tokens":557}
+{"id":"M0318","output_text":"{toolName}: Error: 🚨 MCP Server Update Required\n\nAPI Server:            ${args.apiVersion}\nSupported API version: ${args.expectedApiVersion}\n\nYour TouchDesigner components speak a newer API generation than this MCP server supports.","total_tokens":551}
+{"id":"M0653","output_text":"Error: At least --view or --path is required.","total_tokens":475}
+{"id":"M0034","output_text":"{\"ok\":false,\"error\":{\"code\":\"PARAMS_NOTIONAL_OVERRIDE\",\"message\":\"params.{key} is not accepted — it would bypass the notional caps\",\"retryable\":false}}","total_tokens":511}
+{"id":"M2548","output_text":"Error: Search failed\n\nError: {err}","total_tokens":439}
+{"id":"M2508","output_text":"{\"error\":\"ENQUEUE_UNVERIFIED\",\"message\":\"{err.message} OUTCOME UNDETERMINED: the POST to /prompt was accepted (HTTP {status}) and the workflow MAY ALREADY BE QUEUED — this is not proof it failed.\"}","total_tokens":614}
+{"id":"M0727","output_text":"[{tool-name}] Error: Hevy API experienced an error.","total_tokens":432}
+{"id":"M2006","output_text":"{name} requires the 'graph' extra (followthemoney), which is not installed in this environment. ({exc})","total_tokens":453}
+{"id":"M0015","output_text":"{\"ok\":false,\"error\":{\"code\":\"INVALID_ORDER\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"hint\":\"the exchange rejected the order parameters\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":640}
+{"id":"M2203","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Template helper restore was not attempted\",\n    \"backup_name\": \"{backup_name}\",\n    \"data\": {\n      \"restored_from\": \"{backup_name}\",\n      \"domain\": \"helper_template\",\n      \"entity_id\": \"{entity_id}\",\n      \"safety_backup\": null,\n      \"apply_status\": \"not_applied\",\n      \"verification_status\": \"not_run\",\n      \"reason\": \"backup_capture_failed\"\n    }\n  }\n}","total_tokens":739}
+{"id":"M0665","output_text":"{\"result\": {\"ok\": false, \"error\": \"name must be a non-empty string\", \"name\": \"{name}\"}}","total_tokens":472}
+{"id":"M2823","output_text":"**Feature Unavailable**\n\nThis feature is temporarily unavailable due to a server configuration issue.\n\nThe service operator has been notified.","total_tokens":454}
+{"id":"M0193","output_text":"DocsAgent Core returned a non-JSON response.\n\nDocsAgent Core is not running.","total_tokens":523}
+{"id":"M2488","output_text":"Error: Console events not available (Firefox Remote Agent not running)","total_tokens":496}
+{"id":"M2387","output_text":"Bytecode must not be empty.","total_tokens":427}
+{"id":"M0009","output_text":"endIndex must be greater than startIndex.","total_tokens":407}
+{"id":"M1190","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error closing document: No active document\"\n}","total_tokens":518}
+{"id":"M2344","output_text":"### JSON_RESULT\n```json\n{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"details\": {\"hints\": [], \"tool_name\": \"page_dialog_observe\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\"}, \"message\": \"Failed to observe page dialog: This browser operation is unsupported.\", \"ok\": false}\n```\n### Error\nFailed to observe page dialog: This browser operation is unsupported.","total_tokens":810}
+{"id":"M0546","output_text":"Missing required \"skyfire-pay-id\" field.","total_tokens":440}
+{"id":"M1743","output_text":"","total_tokens":649}
+{"id":"M2374","output_text":"Failed to initialize the 'azd' MCP tool.\n'azd' version {installedVersion} is installed, but version 1.20.0 or later is required.","total_tokens":533}
+{"id":"M2660","output_text":"Invalid ${name}: \"${raw}\".","total_tokens":484}
+{"id":"M2306","output_text":"Error: Multiple services matched. Matched services: {serviceIds.join(\", \")}","total_tokens":506}
+{"id":"M2027","output_text":"Error executing tool {name}:","total_tokens":484}
+{"id":"M0483","output_text":"Error: profile builder {opts.profileBuilderId} has no function code","total_tokens":471}
+{"id":"M2520","output_text":"{\"error\":\"NON_JSON_RESPONSE\",\"message\":\"{url} answered {reason} with a body that begins like JSON but does not parse where JSON was expected. This means the body BEGINS like JSON and does not parse — that is all this response establishes. It is equally consistent with a body cut off mid-document (a dropped connection, a proxy read/body-size or buffer limit, a stream that ended early), with a COMPLETE but invalid JSON payload (a gateway, WAF or error handler that emits malformed JSON), and with a JSON-shaped body from a responder that is not the ComfyUI API. Content-Type: {contentType}. Body starts: {bodyPrefix}.\"}","total_tokens":1109}
+{"id":"M0916","output_text":"Error executing tool hotkey: Key must be one of ['\\t', '\\n', '\\r', ' ', '!', '\"', '#', '$', '%', '&', \"'\", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~', 'accept', 'add', 'alt', 'altleft', 'altright', 'apps', 'backspace', 'browserback', 'browserfavorites', 'browserforward', 'browserhome', 'browserrefresh', 'browsersearch', 'browserstop', 'capslock', 'clear', 'convert', 'ctrl', 'ctrlleft', 'ctrlright', 'decimal', 'del', 'delete', 'divide', 'down', 'end', 'enter', 'esc', 'escape', 'execute', 'f1', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f2', 'f20', 'f21', 'f22', 'f23', 'f24', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'final', 'fn', 'hanguel', 'hangul', 'hanja', 'help', 'home', 'insert', 'junja', 'kana', 'kanji', 'launchapp1', 'launchapp2', 'launchmail', 'launchmediaselect', 'left', 'modechange', 'multiply', 'nexttrack', 'nonconvert', 'num0', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7', 'num8', 'num9', 'numlock', 'pagedown', 'pageup', 'pause', 'pgdn', 'pgup', 'playpause', 'prevtrack', 'print', 'printscreen', 'prntscrn', 'prtsc', 'prtscr', 'return', 'right', 'scrolllock', 'select', 'separator', 'shift', 'shiftleft', 'shiftright', 'sleep', 'stop', 'subtract', 'tab', 'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen', 'command', 'option', 'optionleft', 'optionright']","total_tokens":1688}
+{"id":"M2827","output_text":"**Configuration Error**\n\nThere appears to be a configuration issue with your setup.\n\nUnable to connect to {url} - Connection timed out.","total_tokens":507}
+{"id":"M1189","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_document\",\n  \"message\": \"Error saving document: No active document\"\n}","total_tokens":490}
+{"id":"M1145","output_text":"Cannot locate IBM.Data.Db2.dll provider assembly.\nDue to huge size of it, we don't include Net.IBM.Data.Db2 provider into installation.","total_tokens":591}
+{"id":"M0053","output_text":"{tool_error_prefix}Figma API rate limit hit (429).{optional_low_seat_text} Your {planTier} plan has limited API access.","total_tokens":551}
+{"id":"M1463","output_text":"Error executing tool {name}: TerraVision cannot run: {\", \".join(sorted(set(missing)))} not found on PATH. TerraVision needs Graphviz, Git and Terraform (or OpenTofu).","total_tokens":572}
+{"id":"M0866","output_text":"Error: Anchor \"#{slug}\" not found in \"{filePath}\".\n\nClosest headings in this file:\n  • {#heading-slug (\"heading title\", line n)}","total_tokens":481}
+{"id":"M0426","output_text":"invalid resource_id, must be an integer for method {method}: {parseErr}","total_tokens":430}
+{"id":"M2993","output_text":"Failed to execute tool manage_agent_triggers: node_id is required for action:\"remove\".","total_tokens":452}
+{"id":"M0481","output_text":"Error: either `config` or `serviceId` must be provided","total_tokens":452}
+{"id":"M0021","output_text":"{\"ok\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":580}
+{"id":"M0865","output_text":"Parsing failed: Section parser found 0 sections — llms-full.txt format may have changed.","total_tokens":464}
+{"id":"M2450","output_text":"Error executing tool {tool}: ModelError: Model {name!r} is not installed.","total_tokens":474}
+{"id":"M0079","output_text":"Error: content parameter must be a string, but received {actualType}: {preview}\n\nCommon mistake: passing a JSON object or nested structure instead of a plain string.","total_tokens":534}
+{"id":"M0819","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}{optional \". \" for permission error} API key seems too short ({apiKey.length} characters). Personal Access Tokens are typically around 82 characters long. {other co-occurring later key warnings}","total_tokens":802}
+{"id":"M0264","output_text":"Error: Reddit rate-limited the RSS feed for r/{subreddit} (HTTP 429) - anonymous access has a small per-IP quota","total_tokens":514}
+{"id":"M1639","output_text":"Code component does not support returning files as tuples anymore.","total_tokens":437}
+{"id":"M2365","output_text":"{\"status\":422,\"message\":\"Resource '{resourceIdentifier}' not found or not accessible..\",\"results\":{\"message\":\"Resource '{resourceIdentifier}' not found or not accessible.\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":668}
+{"id":"M2357","output_text":"{\"status\":404,\"message\":\"Resource group '{resourceGroupName}' not found.\",\"results\":{\"message\":\"Resource group '{resourceGroupName}' not found\",\"type\":\"KeyNotFoundException\"},\"duration\":{duration_ms}}","total_tokens":580}
+{"id":"M2841","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.\n\n**Event ID**: {eventId}\n\nUnable to connect to {url} - Connection reset.","total_tokens":615}
+{"id":"M1411","output_text":"Error: BROWSER_USE_API_KEY is not set.","total_tokens":454}
+{"id":"M0322","output_text":"get_top_image: Error: Handler for 'exec_python_script' failed: Script execution failed: Node not found at path: {node_path}\nTraceback (most recent call last):\n{traceback_frames}Exception: Node not found at path: {node_path}\n","total_tokens":541}
+{"id":"M0326","output_text":"{toolName}: Error: {response.error}.","total_tokens":456}
+{"id":"M2410","output_text":"{\n  \"overall_status\": \"critical\",\n  \"timestamp\": \"{timestamp}\",\n  \"checks\": {checks},\n  \"recommendations\": [{other_recommendations}],\n  \"repair_available\": {repair_available},\n  \"uptime_ms\": {uptime_ms},\n  \"performance_metrics\": {performance_metrics}\n}","total_tokens":561}
+{"id":"M2575","output_text":"Error: No asset provided","total_tokens":468}
+{"id":"M2662","output_text":"EMBEDDING_MODEL is required when EMBEDDING_PROVIDER=lmstudio.","total_tokens":489}
+{"id":"M2801","output_text":"failed to find workspace: workspace must be started; was unable to autostart as the last build job is \"${status}\", expected \"stopped\"","total_tokens":487}
+{"id":"M1599","output_text":"Conflict: ${error.message}\n\nThe resource may already exist or be in a state that prevents this operation.","total_tokens":459}
+{"id":"M0275","output_text":"Error: Reddit is temporarily unavailable","total_tokens":475}
+{"id":"M0771","output_text":"NotFoundError: The \"{check}\" check needs the \"{query.requiresExtension}\" extension, which is not installed on database \"{databaseName}\". Installing it writes to the user's database.","total_tokens":633}
+{"id":"M0722","output_text":"[{tool-name}] Error: The request failed Hevy validation.","total_tokens":460}
+{"id":"M0818","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}{optional \". \" for permission error}Suggestions: Expected one dot (.) in the API key, but found {dotsInApiKeyCount}. {other co-occurring later key warnings}","total_tokens":679}
+{"id":"M2849","output_text":"**Input Error**\n\nThere was an HTTP 404 error with your request to the Sentry API.\n\nAPI error (404): {data.detail}.","total_tokens":546}
+{"id":"M1106","output_text":"Error executing tool {tool_name}: Invalid filename: {filename}, must be an absolute path when not in SSE mode","total_tokens":683}
+{"id":"M2336","output_text":"HTTP authentication navigation failed; credentials and diagnostic arguments were redacted.","total_tokens":837}
+{"id":"M1920","output_text":"Parameter validation failed: Invalid parameters:\n{other_matched_validation_issues}","total_tokens":489}
+{"id":"M1561","output_text":"I ran out of analysis budget before reaching an answer.","total_tokens":446}
+{"id":"M2032","output_text":"Error executing tool {name}: No cell {missing[0]!r} in this notebook (and {len(missing) - 1} more).","total_tokens":473}
+{"id":"M2832","output_text":"**Input Error**\n\nThere was an HTTP 429 error with your request to the Sentry API.\n\nAPI error (429): Server error: Received HTML instead of JSON (429 {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":518}
+{"id":"M1425","output_text":"Error: Unable to copy Chrome profile \"{self.profile_directory}\" because one or more files are locked.","total_tokens":475}
+{"id":"M0127","output_text":"{new_api_context_prefix}API quota exceeded.{new_api_context_suffix}","total_tokens":588}
+{"id":"M2839","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.","total_tokens":603}
+{"id":"M0098","output_text":"Error executing tool add_knowledge_base_to_agent: Must provide either a URL, a file, or text","total_tokens":438}
+{"id":"M2022","output_text":"Error executing tool {name}: Password login failed with status {response.status_code}. Body: {_truncate(response.text)}","total_tokens":495}
+{"id":"M0088","output_text":"Error: Multiple pages named \"{asString}\" found (indices: {indices}).","total_tokens":446}
+{"id":"M0055","output_text":"{tool_error_prefix}Failed to make request to Figma API endpoint '{endpoint}': Figma API authentication is required.","total_tokens":510}
+{"id":"M2209","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"'{tool_name}' requires a pre-write backup, but the snapshot could not be captured: could not write the pre-write snapshot for {key}: {type(err).__name__}: {err}. The write was blocked and nothing was changed.\"\n  },\n  \"tool_name\": \"{tool_name}\"\n}","total_tokens":612}
+{"id":"M2549","output_text":"Error: Search failed\n\nError: {err}","total_tokens":457}
+{"id":"M0817","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}{optional \". \" for permission error}Suggestions: Expected one dot (.) in the API key, but found {dotsInApiKeyCount}. {other co-occurring later key warnings}","total_tokens":579}
+{"id":"M0029","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_ACCOUNT\",\"message\":\"unknown account {JSON.stringify(name)} — configured accounts: {known.join(\\\", \\\")}\",\"retryable\":false}}","total_tokens":620}
+{"id":"M1193","output_text":"{\n  \"ok\": false,\n  \"code\": \"no_active_layer\",\n  \"message\": \"Error deleting layer: No active layer\"\n}","total_tokens":506}
+{"id":"M1466","output_text":"Error executing tool {name}: HTML generation reported success but {produced.name} was not found.","total_tokens":475}
+{"id":"M1600","output_text":"Checkpoint conflict: ${error.message}\n\nThis typically occurs when a window stage interval was changed.","total_tokens":476}
+{"id":"M2208","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Restore blocked: the pre-restore safety snapshot could not be captured. Nothing was changed.\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":633}
+{"id":"M0311","output_text":"{toolName}: Error: TouchDesigner connection is not configured","total_tokens":489}
+{"id":"M0542","output_text":"Failed to connect to MCP server at \"{tool.serverUrl}\".","total_tokens":469}
+{"id":"M2478","output_text":"Error: Unable to detect Firefox binary automatically","total_tokens":521}
+{"id":"M1097","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Invalid datetime string {v:repr}. Expected ISO format 'YYYY-MM-DD', 'YYYY-MM-DDTHH:MM[:SS]', or 'YYYY-MM-DD HH:MM[:SS]'. {pydantic_input_details_and_other_errors}.","total_tokens":583}
+{"id":"M0547","output_text":"This tool requires an x402 payment.","total_tokens":514}
+{"id":"M1815","output_text":"","total_tokens":540}
+{"id":"M2220","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is invalid\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":715}
+{"id":"M0044","output_text":"Invalid path: \"{localPath}\" resolves outside the allowed image directory. The server's image directory is \"{baseDir}\".","total_tokens":496}
+{"id":"M2345","output_text":"This browser operation is unsupported.","total_tokens":820}
+{"id":"M2518","output_text":"{url} answered {reason} with an HTML page where JSON was expected. This means a reverse proxy in front of ComfyUI returned its OWN error page (its markers are in the body) — the proxy is up but could not reach, or timed out talking to, ComfyUI itself. Content-Type: {contentType}. Body starts: {bodyPrefix}. This is a temporary server outage — ComfyUI crashed, is restarting, or a proxy in front of it could not reach it — not evidence that the configured ComfyUI base URL is pointing at the wrong place.","total_tokens":695}
+{"id":"M0319","output_text":"{toolName}: {error.name}: {error.message}.","total_tokens":464}
+{"id":"M0340","output_text":"{toolName}: Error: 🌐 Invalid Host Configuration\n\nCannot resolve the TouchDesigner API server hostname.\n\nOriginal error: ${error}.","total_tokens":543}
+{"id":"M0068","output_text":"Both were provided.","total_tokens":444}
+{"id":"M1098","output_text":"Validation Error: {pydantic_error_header_and_location}\n  {pydantic_input_details_and_other_errors}.","total_tokens":673}
+{"id":"M2819","output_text":"chat_id must be a valid UUID","total_tokens":404}
+{"id":"M2181","output_text":"Error: Service changed while connecting\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":512}
+{"id":"M2350","output_text":"{\"status\":{status},\"message\":\"{ex.Message}.\",\"results\":{\"message\":\"{ex.Message}\",\"type\":\"{ex.GetType().Name}\"},\"duration\":{duration_ms}}","total_tokens":534}
+{"id":"M0228","output_text":"{\"success\": false, \"project_dir\": \"{absolute_project_dir}\", \"target\": \"{target_name_from_yaml}\", \"logs\": \"{traceback_frames_chained_causes_and_optional_group_prefix}atopile.errors.UserException: Layout file not found: {layout_path}\\n{optional_group_suffix}\"}","total_tokens":551}
+{"id":"M1091","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, A multi-select Cascader with full_path=False expects a list of leaf values (e.g. ['France', 'Japan']), not paths. {pydantic_input_details_and_other_errors}.","total_tokens":627}
+{"id":"M1716","output_text":"{\"error\":\"Error executing tool: Parameter '${name}' is required and must be a non-blank string. Received: ${raw}\",\"statusCode\":400}","total_tokens":474}
+{"id":"M0638","output_text":"Error: At least --view or --path is required.","total_tokens":512}
+{"id":"M1003","output_text":"agent_run error (429): {apiMessage}\n\nRate or concurrency limit reached.","total_tokens":504}
+{"id":"M0213","output_text":"get_content with mode=passages requires a query","total_tokens":518}
+{"id":"M2896","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint HTTP {exc.code}: <error body unavailable>). The files inventory requires a signed-in identity.","total_tokens":624}
+{"id":"M2182","output_text":"Error: The running service and this client have different versions.\n[structuredContent] {\"error\": \"SERVICE_VERSION_MISMATCH\"}","total_tokens":521}
+{"id":"M2751","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"default must be a valid ${field.kind} value\"\n    }\n  ]\n}","total_tokens":492}
+{"id":"M2189","output_text":"Incomplete pinned service installation","total_tokens":429}
+{"id":"M1593","output_text":"Bad Request: ${msg}\n\nThis usually indicates invalid configuration or pipeline syntax.","total_tokens":471}
+{"id":"M0666","output_text":"{\"result\": {\"ok\": false, \"error\": \"name must match ^[a-zA-Z][a-zA-Z0-9_-]*$ (letters, digits, underscore, hyphen; must start with a letter)\", \"name\": \"{name}\"}}","total_tokens":548}
+{"id":"M2303","output_text":"Error: operatingSystemDisplayNames must match pattern 'os (version)'","total_tokens":418}
+{"id":"M2455","output_text":"Error executing tool memory_store: MemoryShapeError: {body_len} characters refused: a memory is ONE claim of at most {max_chars}.","total_tokens":572}
+{"id":"M0219","output_text":"{\"success\": false, \"project_dir\": \"{absolute_project_dir}\", \"target\": \"{target_name_from_yaml}\", \"logs\": \"{traceback_frames_chained_causes_and_optional_group_prefix}atopile.errors.UserException: Entry file not found: `{entry_file_path.name}`\\n\\nExpected at:\\n{entry_file_path.resolve()}\\n\\n{optional_group_suffix}\"}","total_tokens":703}
+{"id":"M1718","output_text":"{\"results\":[],\"returnedCount\":0,\"error\":\"\"}","total_tokens":751}
+{"id":"M0562","output_text":"Input validation failed for Actor '{actorName}'.","total_tokens":677}
+{"id":"M2892","output_text":"could not mint a bearer (could not read {url}: {exc!r}).","total_tokens":454}
+{"id":"M1084","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader options at '{path or 'root'}' must be a nested dict or a list of scalars, not {type(node).__name__}. {pydantic_input_details_and_other_errors}.","total_tokens":560}
+{"id":"M1178","output_text":"{\n  \"ok\": false,\n  \"code\": \"document_not_found\",\n  \"message\": \"No open document with id {__targetId}\"\n}","total_tokens":542}
+{"id":"M2404","output_text":"{\"code\":\"transport_error\",\"message\":\"No response received; the operation may have completed.\",\"request_key\":{requestKey}}","total_tokens":466}
+{"id":"M2099","output_text":"Invalid API version.","total_tokens":457}
+{"id":"M0010","output_text":"{\"ok\":false,\"error\":{\"code\":\"AUTH_FAILED\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"hint\":\"credentials for {accountName ? account + JSON.stringify(accountName) : this account} were rejected by {exchangeId ?? the exchange} — the key may lack permission for this call, be expired, or be live keys pointed at a testnet (or vice versa)\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":717}
+{"id":"M2861","output_text":"conversationId: {resolvedConversationId}\n\nError: expires_at requires a valid ISO 8601 timestamp.","total_tokens":562}
+{"id":"M0201","output_text":"{\"error\": {\"code\": \"no_content\", \"message\": \"{data.message}\"}}","total_tokens":483}
+{"id":"M2461","output_text":"Error executing tool memory_store: MemoryShapeError: Heading refused: a memory needs no title, and a text that does is several memories.","total_tokens":652}
+{"id":"M0759","output_text":"Invalid ID format: \"{id}\". Expected format: org:*, project:*, or branch:*\n⚠️ Warning: No valid scope categories are set. Only the \"search\" and \"fetch\" tools are available.","total_tokens":586}
+{"id":"M2579","output_text":"Could not determine the current git branch.","total_tokens":426}
+{"id":"M0070","output_text":"Could not extract draw.io XML from input. Expected <mxGraphModel> or <mxfile> root element. Received (first 200 chars): {preview}","total_tokens":461}
+{"id":"M2850","output_text":"**Input Error**\n\nThere was an HTTP 429 error with your request to the Sentry API.\n\nAPI error (429): {data.detail}","total_tokens":481}
+{"id":"M1143","output_text":"Cannot load linq2db query configuration: option '--max-rows' must be a non-negative integer row count.","total_tokens":439}
+{"id":"M0458","output_text":"Error executing tool {name}: Policy YAML import is not enabled.","total_tokens":465}
+{"id":"M0913","output_text":"Error executing tool press: Key must be one of ['\\t', '\\n', '\\r', ' ', '!', '\"', '#', '$', '%', '&', \"'\", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~', 'accept', 'add', 'alt', 'altleft', 'altright', 'apps', 'backspace', 'browserback', 'browserfavorites', 'browserforward', 'browserhome', 'browserrefresh', 'browsersearch', 'browserstop', 'capslock', 'clear', 'convert', 'ctrl', 'ctrlleft', 'ctrlright', 'decimal', 'del', 'delete', 'divide', 'down', 'end', 'enter', 'esc', 'escape', 'execute', 'f1', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f2', 'f20', 'f21', 'f22', 'f23', 'f24', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'final', 'fn', 'hanguel', 'hangul', 'hanja', 'help', 'home', 'insert', 'junja', 'kana', 'kanji', 'launchapp1', 'launchapp2', 'launchmail', 'launchmediaselect', 'left', 'modechange', 'multiply', 'nexttrack', 'nonconvert', 'num0', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7', 'num8', 'num9', 'numlock', 'pagedown', 'pageup', 'pause', 'pgdn', 'pgup', 'playpause', 'prevtrack', 'print', 'printscreen', 'prntscrn', 'prtsc', 'prtscr', 'return', 'right', 'scrolllock', 'select', 'separator', 'shift', 'shiftleft', 'shiftright', 'sleep', 'stop', 'subtract', 'tab', 'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen', 'command', 'option', 'optionleft', 'optionright']","total_tokens":1685}
+{"id":"M0915","output_text":"Error executing tool key_up: Key must be one of ['\\t', '\\n', '\\r', ' ', '!', '\"', '#', '$', '%', '&', \"'\", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\\\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~', 'accept', 'add', 'alt', 'altleft', 'altright', 'apps', 'backspace', 'browserback', 'browserfavorites', 'browserforward', 'browserhome', 'browserrefresh', 'browsersearch', 'browserstop', 'capslock', 'clear', 'convert', 'ctrl', 'ctrlleft', 'ctrlright', 'decimal', 'del', 'delete', 'divide', 'down', 'end', 'enter', 'esc', 'escape', 'execute', 'f1', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f2', 'f20', 'f21', 'f22', 'f23', 'f24', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'final', 'fn', 'hanguel', 'hangul', 'hanja', 'help', 'home', 'insert', 'junja', 'kana', 'kanji', 'launchapp1', 'launchapp2', 'launchmail', 'launchmediaselect', 'left', 'modechange', 'multiply', 'nexttrack', 'nonconvert', 'num0', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7', 'num8', 'num9', 'numlock', 'pagedown', 'pageup', 'pause', 'pgdn', 'pgup', 'playpause', 'prevtrack', 'print', 'printscreen', 'prntscrn', 'prtsc', 'prtscr', 'return', 'right', 'scrolllock', 'select', 'separator', 'shift', 'shiftleft', 'shiftright', 'sleep', 'stop', 'subtract', 'tab', 'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen', 'command', 'option', 'optionleft', 'optionright']","total_tokens":1692}
+{"id":"M2176","output_text":"Error: LaunchAgent configuration has changed\n[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":559}
+{"id":"M2375","output_text":"Failed to initialize the 'azd' MCP tool.\n'azd' is not installed or not found in the system PATH.","total_tokens":517}
+{"id":"M1032","output_text":"Symbol '{symbol_name}' is ambiguous in file","total_tokens":484}
+{"id":"M1602","output_text":"Invalid state transition: ${error.message}","total_tokens":427}
+{"id":"M2522","output_text":"{\"error\":\"NON_JSON_RESPONSE\",\"message\":\"{url} answered {reason} with an HTML page where JSON was expected. This means some HTTP responder other than the ComfyUI JSON API answered this path; this body alone does not identify which. The usual candidates are the ComfyUI frontend's SPA catch-all, a reverse proxy that forwards the UI but not the API routes, a maintenance/WAF page, or an unrelated web app on this host. Content-Type: {contentType}. Body starts: {bodyPrefix}.\"}","total_tokens":835}
+{"id":"M1096","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, A multi-select Cascader with full_path=True expects a list of full root-to-leaf paths (e.g. [['Europe', 'France']]), not bare leaves. {pydantic_input_details_and_other_errors}.","total_tokens":657}
+{"id":"M2524","output_text":"{\"error\":\"NON_JSON_RESPONSE\",\"message\":\"{url} answered {reason} with a body that did not parse as JSON where JSON was expected. This means the body did not parse as JSON and is not markup either. The candidates are a truncated response, a non-JSON error payload, or a responder that is not the ComfyUI JSON API; this response does not identify which. Content-Type: {contentType}. Body starts: {bodyPrefix}.\"}","total_tokens":841}
+{"id":"M2213","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"'{tool_name}' requires a pre-write backup, but the snapshot could not be captured: The new snapshot for {key} disappeared before capture completed. The write was blocked and nothing was changed.\"\n  },\n  \"tool_name\": \"{tool_name}\"\n}","total_tokens":592}
+{"id":"M1585","output_text":"Docker is not running. Atlas Local tools require Docker to be running.","total_tokens":459}
+{"id":"M0488","output_text":"Error: Error parsing JSON (len={text.length}) from {method} {url}: {getErrorMessage(e)}.","total_tokens":456}
+{"id":"M0878","output_text":"No current snapshot found.","total_tokens":413}
+{"id":"M0110","output_text":"Error executing tool compose_music: Only one of prompt or composition_plan must be provided","total_tokens":433}
+{"id":"M0373","output_text":"Request timed out. The query is taking longer than expected.","total_tokens":452}
+{"id":"M0637","output_text":"Error: Stored workflow state is invalid.","total_tokens":420}
+{"id":"M2845","output_text":"**Input Error**\n\nThere was an HTTP {status} error with your request to the Sentry API.\n\nAPI error ({status}): {data.detail}","total_tokens":472}
+{"id":"M0655","output_text":"Error: Stored workflow state is invalid.","total_tokens":426}
+{"id":"M2313","output_text":"Error: Either 'schema' or 'schemas' is required in dataconnect.yaml","total_tokens":430}
+{"id":"M2893","output_text":"could not obtain a Netdata Cloud bearer (could not read {url}: {exc!r}).","total_tokens":543}
+{"id":"M2223","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot {name!r} has unsupported schema_version={sv!r} (expected {SCHEMA_VERSION})\"\n  },\n  \"backup_name\": \"{backup_name}\"\n}","total_tokens":584}
+{"id":"M2722","output_text":"failed to install helm chart '${chart}': chart reference \"${chart}\" is not allowed: http:// scheme is blocked","total_tokens":442}
+{"id":"M2566","output_text":"Error: Failed to fetch data products\n\nError: {err}","total_tokens":462}
+{"id":"M0145","output_text":"API quota exceeded.","total_tokens":420}
+{"id":"M1389","output_text":"{\n  \"error\": \"fetch_failed\",\n  \"error_reason\": \"DNS lookup temporarily failed (EAI_AGAIN)\",\n  \"stage\": \"fetch\"\n}","total_tokens":501}
+{"id":"M0286","output_text":"Telegram not configured.","total_tokens":419}
+{"id":"M1075","output_text":"Validation Error: {option_dictionary_validation_error}.","total_tokens":465}
+{"id":"M1984","output_text":"The database file appears damaged ({getErrorMessage(error)}).","total_tokens":476}
+{"id":"M1717","output_text":"{\"error\":\"Error executing tool: Parameter '${key}' must be a string. Received: ${raw}\",\"statusCode\":400}","total_tokens":454}
+{"id":"M1641","output_text":"Invalid memory ref(s): ${invalidRefs.map(r => `\"${r}\"`).join(', ')}.","total_tokens":544}
+{"id":"M0376","output_text":"Request timed out. The WHO query is taking longer than expected.","total_tokens":438}
+{"id":"M2036","output_text":"Error executing tool {name}: code_sandbox_url is not configured (current value: {code_sandbox_url!r}).","total_tokens":531}
+{"id":"M1081","output_text":"Validation Error: {pydantic_error_header_and_location}\n  {pydantic_input_details_and_other_errors}.","total_tokens":647}
+{"id":"M0447","output_text":"Error executing tool {name}: mode must be 'merge' or 'replace'.","total_tokens":443}
+{"id":"M1061","output_text":"order requires a non-empty 'action' name.","total_tokens":461}
+{"id":"M2834","output_text":"**Error**\n\nThere was an HTTP {status} server error with the Sentry API.\n\nServer error: Received HTML instead of JSON ({status} {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":498}
+{"id":"M2916","output_text":"This payload is too large or too deeply nested to check against the console-command policy, so it was refused.","total_tokens":464}
+{"id":"M2388","output_text":"{\"schemaVersion\":1,\"error\":{\"code\":\"INVALID_BYTECODE\",\"message\":\"Bytecode must contain an even number of hexadecimal digits.\",\"details\":{\"length\":\"{hex.length}\"}}}","total_tokens":488}
+{"id":"M1070","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Model with id={model_id} already exists. Models must have a unique id across the whole dashboard. {pydantic_input_details_and_other_errors}.","total_tokens":667}
+{"id":"M0769","output_text":"Error: The \"{check}\" diagnostic failed against Postgres: {error.message}{database_annotation}.","total_tokens":448}
+{"id":"M0981","output_text":"Error executing tool read_dblp_paper: dblp doesn't provide direct paper content access.","total_tokens":444}
+{"id":"M1721","output_text":"Semantic search is not enabled.","total_tokens":600}
+{"id":"M0049","output_text":"{tool_error_prefix}Request to Figma API endpoint '{endpoint}' returned 403 Forbidden.\nResponse body: {body}\n\nDepending on the specific error message above, the issue may be one of the following:\n- The access token is missing required scopes (File content: Read, Dev resources: Read)\n- The access token has been revoked, mistyped, or (for OAuth) expired — PATs don't expire, OAuth tokens do\n- The access token doesn't have permission to this specific file — it must be owned by or shared with the token's account, and for team/org files the account must belong to that team\n- The file's share settings don't allow viewers to copy/share/export\n- An HTTP intermediary (corporate proxy, firewall, VPN) rejected the request before it reached Figma","total_tokens":831}
+{"id":"M1395","output_text":"{\n  \"error\": \"fetch_failed\",\n  \"error_reason\": \"Request timed out\",\n  \"stage\": \"fetch\"\n}","total_tokens":541}
+{"id":"M1818","output_text":"","total_tokens":485}
+{"id":"M0272","output_text":"Error: Cannot access r/{subredditName} - it may be private, quarantined, or doesn't exist.","total_tokens":472}
+{"id":"M2843","output_text":"**Error**\n\nIt looks like there was a problem communicating with the Sentry API.","total_tokens":562}
+{"id":"M1605","output_text":"Error running atlas-connect-cluster: Connection string for connection type \"${connectionType}\" is not available.","total_tokens":479}
+{"id":"M1041","output_text":"{\"error\":\"Failed to embed query: ONNX model not found at {onnx_path}.\"}","total_tokens":524}
+{"id":"M1076","output_text":"Validation Error: {pydantic_error_header_and_location}\n{pydantic_input_details_and_other_errors}.","total_tokens":537}
+{"id":"M2656","output_text":"Failed to download Ollama image.\nDetails: ${msg}","total_tokens":542}
+{"id":"M2560","output_text":"Error: Glossary term '{termID}' not found\n\nThe term ID may be incorrect.","total_tokens":483}
+{"id":"M1269","output_text":"Error executing tool query: {traceback_frames_and_exception_chain}\n{exception_type}: {exception_message}\n\nThis reranker uses [`CrossEncoder` from the sentence_transformers library](https://sbert.net/docs/package_reference/cross_encoder/cross_encoder.html) for reranking.\n    Parameters in configs.params will be passed to the `CrossEncoder` class in the `sentence_transformers` library.\n    The default model is 'cross-encoder/ms-marco-MiniLM-L-6-v2'.","total_tokens":627}
+{"id":"M2863","output_text":"conversationId: {resolvedConversationId}\n\nError: Interval schedules require a non-empty duration such as \"15m\" or \"1h\".","total_tokens":547}
+{"id":"M2170","output_text":"[structuredContent] {\"error\": \"SERVICE_UNAVAILABLE\"}","total_tokens":513}
+{"id":"M0155","output_text":"Error adding memory:","total_tokens":562}
+{"id":"M2935","output_text":"Behavior tree has no root composite;","total_tokens":481}
+{"id":"M2414","output_text":"{\n  \"status\": \"critical\",\n  \"timestamp\": \"{timestamp}\",\n  \"performance_grade\": \"{grade}\",\n  \"metrics\": {metrics},\n  \"analysis\": {analysis},\n  \"recommendations\": [{other_recommendations}]\n}","total_tokens":543}
+{"id":"M0624","output_text":"Base URL must start with http or https.","total_tokens":405}
+{"id":"M2355","output_text":"{\"status\":404,\"message\":\"Could not find subscription with name {subscriptionName}.\",\"results\":{\"message\":\"Could not find subscription with name {subscriptionName}\",\"type\":\"KeyNotFoundException\"},\"duration\":{duration_ms}}","total_tokens":545}
+{"id":"M1383","output_text":"{\n  \"error\": \"blocked_by_challenge\",\n  \"error_reason\": \"The site's bot protection served a challenge page that could not be cleared automatically\",\n  \"stage\": \"fetch\"\n}","total_tokens":545}
+{"id":"M0141","output_text":"No transit routes found for any origin/destination pair. The Google Routes API does not support transit directions in some regions (notably Japan and India).","total_tokens":495}
+{"id":"M1257","output_text":"Error executing tool vectorise: {traceback_frames_and_exception_chain}\nLookupError: {lookup_exception_message}\n\nTreeSitter Parser for language '{language}' not found.","total_tokens":479}
+{"id":"M1723","output_text":"{\"error\":\"Error executing tool: A '${type.entityType()}' entity named '${identity}' already exists. Nothing was created.\",\"statusCode\":400}","total_tokens":522}
+{"id":"M2458","output_text":"Error executing tool memory_store_many: facts[{i}]: Paragraph break refused: a memory is one claim, and a text in paragraphs is several.","total_tokens":499}
+{"id":"M0317","output_text":"{toolName}: Error: 🚨 MCP Server Update Required\n\nAPI Server:            ${args.apiVersion}\nSupported API version: ${args.expectedApiVersion}\n\nYour TouchDesigner components speak a newer API generation than this MCP server supports.","total_tokens":573}
+{"id":"M2217","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"could not write the pre-write snapshot for {key}: OSError: {_MAX_SAME_SECOND} snapshots of {domain}:{safe} inside one second\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"domain\": \"helper_template\",\n    \"entity_id\": \"{entity_id}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\",\n    \"reason\": \"backup_capture_failed\"\n  }\n}","total_tokens":708}
+{"id":"M1947","output_text":"Error executing tool {tool}: write authority is unresolved.","total_tokens":497}
+{"id":"M0073","output_text":"Error: could not load the shape search index ({e.message}).","total_tokens":437}
+{"id":"M2658","output_text":"Docker is not available.","total_tokens":443}
+{"id":"M0352","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"meta_api_error\",\n  \"message\": {error_data.get('message', 'Facebook API error')},\n  \"recoverable\": true\n}","total_tokens":539}
+{"id":"M1590","output_text":"Received a Forbidden API Error: ${error.message}\n\nYou don't have sufficient permissions to perform this action in MongoDB Atlas.","total_tokens":493}
+{"id":"M1367","output_text":"All page components must belong to the same page.","total_tokens":424}
+{"id":"M1073","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Card cannot have both `href` and `actions` defined. {pydantic_input_details_and_other_errors}.","total_tokens":504}
+{"id":"M1181","output_text":"{\n  \"ok\": false,\n  \"code\": \"ambiguous_name\",\n  \"message\": \"Multiple open documents named \\\"{__targetName}\\\".\"\n}","total_tokens":591}
+{"id":"M1928","output_text":"Error executing tool list_documents: <Fault 1: {repr(GUI_DISPATCH_STUCK: GUI dispatch timed out after {timeout:g}s while '{operation}' was still running on FreeCAD's GUI thread. The task cannot be safely cancelled. Future GUI operations will fail immediately until it finishes.}>","total_tokens":752}
+{"id":"M1125","output_text":"Cannot create database provider '{provider}'. Provider name '{provider}' looks like a test data source alias. linq2db CLI expects a provider name registered by linq2db itself.","total_tokens":600}
+{"id":"M1778","output_text":"The browser is already running for {userDataDir}.\nCause: {error.message}","total_tokens":485}
+{"id":"M0549","output_text":"Failed to call Actor '{actorFullName}': {error.message}","total_tokens":461}
+{"id":"M2712","output_text":"${key} parameter must be a string","total_tokens":415}
+{"id":"M0038","output_text":"{\"ok\":false,\"error\":{\"code\":\"UNVALUABLE_ORDER\",\"message\":\"a maxOrderValue cap is set on account {JSON.stringify(account.name)} but the order value could not be determined ({valuation.note ?? no reference price})\",\"retryable\":false}}","total_tokens":543}
+{"id":"M2216","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"'{tool_name}' requires a pre-write backup, but the snapshot could not be captured: could not write the pre-write snapshot for {key}: OSError: {_MAX_SAME_SECOND} snapshots of {domain}:{safe} inside one second. The write was blocked and nothing was changed.\"\n  },\n  \"tool_name\": \"{tool_name}\"\n}","total_tokens":665}
+{"id":"M2200","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot has invalid {key}\"\n  },\n  \"backup_name\": \"{backup_name}\"\n}","total_tokens":560}
+{"id":"M0843","output_text":"🌐 Network Error: {errorMsg}.","total_tokens":430}
+{"id":"M2561","output_text":"Error: Search failed\n\nError: {err}","total_tokens":438}
+{"id":"M0837","output_text":"{search-only prefix: All configured SearXNG instances failed. {instanceUrl}: }🔒 SSL/TLS Error: Certificate verification failed for {target} ({causeCode}).{search-only other instance failures/skipped details}","total_tokens":594}
+{"id":"M2908","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint response had no token).","total_tokens":456}
+{"id":"M1610","output_text":"Error running atlas-load-sample-dataset:","total_tokens":593}
+{"id":"M2865","output_text":"conversationId: {resolvedConversationId}\n\nError: Interval schedules require a positive duration amount.","total_tokens":427}
+{"id":"M0209","output_text":"{\"error\": {\"code\": \"source_not_found\", \"message\": \"{err.message_or_source_unknown}\"}}","total_tokens":474}
+{"id":"M2899","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint HTTP {exc.code}: {body}). The files inventory requires a signed-in identity.","total_tokens":610}
+{"id":"M0962","output_text":"Error executing tool {tool_name}: ACM DL search is not yet implemented.","total_tokens":447}
+{"id":"M1107","output_text":"Error executing tool {tool_name}: Invalid filename: {filename}, must be relative to EXCEL_FILES_PATH","total_tokens":446}
+{"id":"M1948","output_text":"Error executing tool {tool}: {path.name} does not exist","total_tokens":487}
+{"id":"M1180","output_text":"{\n  \"ok\": false,\n  \"code\": \"document_not_found\",\n  \"message\": \"No open document named \\\"{__targetName}\\\"\"\n}","total_tokens":492}
+{"id":"M2370","output_text":"{\"status\":500,\"message\":\"Failed to create ARM client: {ex.Message}.\",\"results\":{\"message\":\"Failed to create ARM client: {ex.Message}\",\"type\":\"Exception\"},\"duration\":{duration_ms}}","total_tokens":547}
+{"id":"M1412","output_text":"Error: BROWSER_USE_API_KEY is invalid.","total_tokens":459}
+{"id":"M0299","output_text":"{\"ok\":false,\"error\":\"RuntimeError: cliclick not installed\"}","total_tokens":481}
+{"id":"M2201","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot has invalid {key}\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":628}
+{"id":"M2516","output_text":"{\"error\":\"NON_JSON_RESPONSE\",\"message\":\"{url} answered {reason} with an HTML page where JSON was expected. This means the ComfyUI web FRONTEND answered this path (its markers are in the body) instead of the ComfyUI HTTP API — typically a reverse proxy that forwards the UI but not the API routes, or a base URL pointing at the frontend's catch-all. Content-Type: {contentType}. Body starts: {bodyPrefix}.\"}","total_tokens":920}
+{"id":"M1069","output_text":"Existing index {existing.owner}/{existing.name} uses {existing.mode} identity.","total_tokens":497}
+{"id":"M0312","output_text":"{toolName}: Error: TouchDesigner connection is not configured.","total_tokens":468}
+{"id":"M0257","output_text":"Error: ⚠️ Rate limit reached! You get {limit} requests/min without auth.\n\nCached data may still be available.","total_tokens":552}
+{"id":"M0541","output_text":"{error.message}","total_tokens":416}
+{"id":"M1636","output_text":"","total_tokens":436}
+{"id":"M2900","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint HTTP {exc.code}: {body}). otel-logs requires a signed-in identity.","total_tokens":569}
+{"id":"M2663","output_text":"EMBEDDING_DIMENSIONS is required when EMBEDDING_PROVIDER=lmstudio.","total_tokens":500}
+{"id":"M0873","output_text":"No baseline snapshot found.","total_tokens":432}
+{"id":"M0359","output_text":"Error executing tool watch_video: Download failed.\nInstalled yt-dlp: {ver}. If this is a YouTube 403 or a format error, the site changed and yt-dlp is behind.","total_tokens":731}
+{"id":"M0194","output_text":"{\"error\": {\"code\": \"core_unavailable\", \"message\": \"DocsAgent Core returned a non-JSON response (HTTP {err.code}).\\n\\nDocsAgent Core is not running.\"}}","total_tokens":599}
+{"id":"M1416","output_text":"Error: Failed to create cloud browser: Failed to connect to cloud browser service.","total_tokens":436}
+{"id":"M1136","output_text":"Option '--{option.Name}' must be a non-negative integer number of seconds.","total_tokens":424}
+{"id":"M2741","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must start with a lowercase letter and contain only letters, numbers, or underscores\"\n    }\n  ]\n}","total_tokens":611}
+{"id":"M2487","output_text":"Error: Console events not available (Firefox Remote Agent not running)","total_tokens":556}
+{"id":"M2205","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Restore blocked: the pre-restore safety snapshot could not be captured. Nothing was changed.\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":623}
+{"id":"M2521","output_text":"{\"error\":\"NON_JSON_RESPONSE\",\"message\":\"{url} answered {reason} with a {contentType} body that did not parse as JSON where JSON was expected. This means the body did not parse as JSON and is not markup either, although the response DECLARES itself text/html — the declaration and the body disagree, so neither settles what answered. The candidates are a truncated response, a non-JSON error payload, or a responder that is not the ComfyUI JSON API; this response does not identify which. Content-Type: {contentType}. Body starts: {bodyPrefix}.\"}","total_tokens":838}
+{"id":"M0043","output_text":"Invalid path: \"{localPath}\" resolves outside the allowed image directory. The server's image directory is \"{baseDir}\".","total_tokens":556}
+{"id":"M0334","output_text":"{toolName}: Error: Failed to connect to TouchDesigner API server (unknown error).","total_tokens":477}
+{"id":"M1086","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, Cascader options must contain at least one leaf value. {pydantic_input_details_and_other_errors}.","total_tokens":531}
+{"id":"M0156","output_text":"Error adding memory:","total_tokens":510}
+{"id":"M0200","output_text":"{\"error\": {\"code\": \"no_content\", \"message\": \"Item not found: {extracted_8_character_id_or_unknown}\"}}","total_tokens":540}
+{"id":"M1725","output_text":"{\"error\":\"Error executing tool: Tag classification '${resolvedClassification.getFullyQualifiedName()}' must match the root classification of parent '${resolvedParent.getFullyQualifiedName()}' (expected '${derivedClassification}'). Nothing was created.\",\"statusCode\":400}","total_tokens":513}
+{"id":"M0768","output_text":"Error: The \"{check}\" diagnostic failed against Postgres: {error.message}{database_annotation}.","total_tokens":437}
+{"id":"M0450","output_text":"Error executing tool {name}: requestId must be 16-64 alphanumeric characters.","total_tokens":431}
+{"id":"M2901","output_text":"could not mint a bearer (Cloud mint request failed: {exc!r}).","total_tokens":496}
+{"id":"M2519","output_text":"{url} answered {reason} with an HTML page where JSON was expected. This means a reverse proxy in front of ComfyUI returned its OWN error page (its markers are in the body) — the proxy is up but could not reach, or timed out talking to, ComfyUI itself. Content-Type: {contentType}. Body starts: {bodyPrefix}. This same ComfyUI API root already served {statsCheck} JSON this session, so the base URL is not newly misconfigured.","total_tokens":843}
+{"id":"M0042","output_text":"Invalid path: \"{localPath}\" starts with a Windows drive letter, but this server is running on POSIX where drive letters don't exist.","total_tokens":535}
+{"id":"M2210","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"could not write the pre-write snapshot for {key}: {type(err).__name__}: {err}\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"domain\": \"helper_template\",\n    \"entity_id\": \"{entity_id}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\",\n    \"reason\": \"backup_capture_failed\"\n  }\n}","total_tokens":676}
+{"id":"M1402","output_text":"{\n  \"error\": \"blocked_by_challenge\",\n  \"error_reason\": \"The site's bot protection served a challenge page that could not be cleared automatically\",\n  \"stage\": \"fetch\"\n}","total_tokens":523}
+{"id":"M0723","output_text":"[{tool-name}] Error: The Hevy API key is invalid or has expired.","total_tokens":446}
+{"id":"M0691","output_text":"{\"error\":\"CRITICAL: Failed to initialize the persistent cache database at {finalDbPath} after 3 attempts. Last error: {lastError.message or Unknown error}. The in-memory fallback also failed: {memoryError.message or String(memoryError)}.\"}","total_tokens":571}
+{"id":"M2593","output_text":"Could not determine the current git branch.","total_tokens":429}
+{"id":"M2368","output_text":"{\"status\":400,\"message\":\"Required parameter is null or empty: {name}.\",\"results\":{\"message\":\"Required parameter is null or empty: {name}\",\"type\":\"ArgumentException\"},\"duration\":{duration_ms}}","total_tokens":579}
+{"id":"M0632","output_text":"Invalid path: must be relative to the FHIR base URL.","total_tokens":430}
+{"id":"M0505","output_text":"Environment variable 'ADO_MCP_AUTH_TOKEN' is not set or empty.","total_tokens":450}
+{"id":"M2347","output_text":"### JSON_RESULT\n```json\n{\"error\": {\"code\": \"UNSUPPORTED_OPERATION\", \"message\": \"This browser operation is unsupported.\"}, \"message\": \"This browser operation is unsupported.\", \"ok\": false}\n```\n### Error\nThis browser operation is unsupported.","total_tokens":757}
+{"id":"M0332","output_text":"{toolName}: Error: No data received.","total_tokens":443}
+{"id":"M2995","output_text":"Failed to execute tool manage_agent: manage_agent action:\"create\" requires \"prompt\".","total_tokens":450}
+{"id":"M0356","output_text":"Error executing tool {toolName}: {\n  \"error\": \"network_error\",\n  \"message\": \"Failed to connect to duplication service\",\n  \"details\": {\n    \"error\": {str(e)}\n  }\n}","total_tokens":499}
+{"id":"M2292","output_text":"Error: Unsupported file format","total_tokens":517}
+{"id":"M2744","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"enum values must be unique\"\n    }\n  ]\n}","total_tokens":472}
+{"id":"M2353","output_text":"{\"status\":422,\"message\":\"Tenant {tenantName} has a null TenantId.\",\"results\":{\"message\":\"Tenant {tenantName} has a null TenantId\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":579}
+{"id":"M1121","output_text":"tradingview_ta is missing;","total_tokens":429}
+{"id":"M1451","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code 1).\nLast output before it stopped:\n{earlier retained output lines, if any}\nGit Error: {type(e).__name__}: {str(e)}\nERROR: Unable to call Git to clone repository!","total_tokens":721}
+{"id":"M0313","output_text":"{toolName}: Error: 🚨 Version Information Missing\n\nMCP Server:  ${args.mcpVersion || \"Unknown\"}\nAPI Server:  ${args.apiVersion || \"Unknown\"}\n\n${args.apiVersion ? \"\" : \"You might be using an old tox file from before v1.3.0 released on December 1, 2025, or the TouchDesigner setup might not be done correctly.\"}\n${args.mcpVersion ? \"\" : \"The MCP server version could not be determined. You might be using an outdated MCP server.\"}\n\nVersion information is required to ensure compatibility between the MCP server and TouchDesigner components.","total_tokens":1110}
+{"id":"M0330","output_text":"{toolName}: Error: No data received.","total_tokens":448}
+{"id":"M1089","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, A single-select Cascader with full_path=False expects a leaf value (e.g. 'France'), not a path. {pydantic_input_details_and_other_errors}.","total_tokens":621}
+{"id":"M2569","output_text":"Error: Team '{args.TeamName}' not found\n\nTeam '{args.TeamName}' not found.","total_tokens":490}
+{"id":"M2902","output_text":"could not obtain a Netdata Cloud bearer (Cloud mint request failed: {exc!r}). The files inventory requires a signed-in identity.","total_tokens":509}
+{"id":"M2887","output_text":"could not obtain a Netdata Cloud bearer (no agents[0] in /api/v3/info).","total_tokens":577}
+{"id":"M0315","output_text":"{toolName}: Error: ⚠️  TouchDesigner API Server Update Required\n\nCurrent:  ${args.apiVersion}\nRequired: ${args.minRequired}+\n\nYour TouchDesigner components are outdated and may not support all features.","total_tokens":717}
+{"id":"M1385","output_text":"{\n  \"error\": \"fetch_failed\",\n  \"error_reason\": \"DNS resolution failed (ENOTFOUND)\",\n  \"stage\": \"fetch\",\n  \"hint\": \"the host could not be resolved\"\n}","total_tokens":712}
+{"id":"M1844","output_text":"Missing 'component' field.","total_tokens":441}
+{"id":"M1413","output_text":"Error: Access forbidden.","total_tokens":416}
+{"id":"M1738","output_text":"{\"error\":\"Error executing tool: Unknown entityType '${entityType}'. Registered entity types: ${registeredTypes}.\",\"statusCode\":400}","total_tokens":539}
+{"id":"M0652","output_text":"Error: Stored workflow state is invalid.","total_tokens":417}
+{"id":"M0339","output_text":"{toolName}: Error: ⏱️  TouchDesigner Connection Timeout\n\nThe connection to TouchDesigner timed out.\n\nPossible causes:\n  1. TouchDesigner is slow to respond\n  2. Network issues\n  3. WebServer DAT is overloaded\n\nOriginal error: ${error}","total_tokens":543}
+{"id":"M2222","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is invalid\",\n    \"suggestion\": \"\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":748}
+{"id":"M0737","output_text":"[{tool-name}] Error: The request failed unexpectedly.","total_tokens":449}
+{"id":"M2453","output_text":"Error executing tool {tool}: ModelError: model {model_name}: HASHES.json missing","total_tokens":458}
+{"id":"M1829","output_text":"Failed to generate chart: {errorMessage || \"Unknown error\"}.","total_tokens":444}
+{"id":"M2477","output_text":"Error: No Marionette listener on 127.0.0.1:{port} ({failure}).","total_tokens":471}
+{"id":"M2868","output_text":"conversationId: {resolvedConversationId}\n\nError: expires_at requires a valid ISO 8601 timestamp.","total_tokens":459}
+{"id":"M1318","output_text":"Error executing tool {tool}: Filtered output exceeds 500 KB","total_tokens":516}
+{"id":"M0090","output_text":"Error: set_page content must not contain <diagram> tags","total_tokens":461}
+{"id":"M2826","output_text":"**Configuration Error**\n\nThere appears to be a configuration issue with your setup.\n\nUnable to connect to {url} - Connection refused.","total_tokens":549}
+{"id":"M2517","output_text":"{url} answered {reason} with an HTML page where JSON was expected. This means an authentication gate answered with a SIGN-IN PAGE (a password field, a sign-in form action, or a sign-in title is in the body) rather than letting the request through to ComfyUI — typically an identity proxy such as Cloudflare Access or an SSO portal. Content-Type: {contentType}. Body starts: {bodyPrefix}. If it returns HTML too, the base URL, its path prefix, or the proxy's route map is wrong, and the credential belongs to that GATEWAY, not to ComfyUI.","total_tokens":1001}
+{"id":"M2466","output_text":"Error executing tool memory_store_many: facts[{i}]: Refused ({matched_phrase!r}): where a fact is written down elsewhere is not the fact.","total_tokens":522}
+{"id":"M1146","output_text":"Cannot locate IBM.Data.Informix.dll provider assembly.","total_tokens":448}
+{"id":"M2294","output_text":"Error: {path} is not a file.","total_tokens":430}
+{"id":"M2855","output_text":"Error: expires_at requires a non-empty UTC ISO timestamp.","total_tokens":442}
+{"id":"M2836","output_text":"**Error**\n\nThere was an HTTP {status} error with your request to the Sentry API.\n\nServer error: Received HTML instead of JSON ({status} {response.statusText}). This may indicate an invalid URL or server issue.","total_tokens":502}
+{"id":"M1117","output_text":"All {batches_attempted} batches failed; first error: RuntimeError('Upstream TradingView scanner returned transient errors on all {attempts} attempts spanning {total_wait:.0f}s ({repr(last_exc)}). This is typically a 30-90s empty-body outage at scanner.tradingview.com.')","total_tokens":571}
+{"id":"M2847","output_text":"**Input Error**\n\nThere was an HTTP 403 error with your request to the Sentry API.\n\nAPI error (403): {data.detail}","total_tokens":492}
+{"id":"M2807","output_text":"failed to find workspace: multiple agents found, available agents: [${agent names}]","total_tokens":522}
+{"id":"M2476","output_text":"Error: No Marionette listener on 127.0.0.1:{port} ({failure}).","total_tokens":456}
+{"id":"M2534","output_text":"Version \"{req.version}\" not found for library \"{req.id}\". Pass either the version id or the human version. Available include: {sample}{more}.","total_tokens":497}
+{"id":"M0594","output_text":"Error executing tool {name}: No connection for session {session_id}.","total_tokens":452}
+{"id":"M1830","output_text":"Failed to generate chart: {errorMessage || \"Unknown error\"}.","total_tokens":441}
+{"id":"M2371","output_text":"Failed to initialize the 'azd' MCP tool.\nThis tool may require dependencies that are not installed.","total_tokens":504}
+{"id":"M0507","output_text":"Failed to obtain Azure DevOps token.","total_tokens":432}
+{"id":"M2031","output_text":"Error executing tool {name}: No cell {missing[0]!r} in this notebook.","total_tokens":465}
+{"id":"M1480","output_text":"{\n  \"success\": false,\n  \"error\": \"Invalid action '{action}'. Must be one of: connected, path, subgraph\"\n}","total_tokens":453}
+{"id":"M1049","output_text":"{\"success\":false,\"error\":\"{path} is empty and no format= was given; an empty file is a clean run only when the tool is named\"}","total_tokens":531}
+{"id":"M1713","output_text":"{\n  \"error\": \"Username may only contain letters, numbers, and underscores\"\n}","total_tokens":429}
+{"id":"M1175","output_text":"{\n  \"ok\": false,\n  \"code\": \"unknown\",\n  \"message\": \"Target layer \\\"{layer.name}\\\" is not a Smart Object (kind={layer.kind}).\"\n}","total_tokens":512}
+{"id":"M2912","output_text":"Editor is waiting on a modal dialog; automation is paused until it is dismissed.","total_tokens":448}
+{"id":"M0684","output_text":"{\"result\": {\"ok\": false, \"error\": \"rounds must be a positive integer\", \"rounds\": \"{rounds:int}\"}}","total_tokens":478}
+{"id":"M0730","output_text":"[{tool-name}] Error: Unable to complete the request after {retryCount+1} attempts to the Hevy API due to transient failures.","total_tokens":466}
+{"id":"M2304","output_text":"Error: versionDisplayNames must match pattern 'version (build)'","total_tokens":434}
+{"id":"M1623","output_text":"Invalid value for parameter `type`: {type}.","total_tokens":440}
+{"id":"M2820","output_text":"prompt is required","total_tokens":401}
+{"id":"M0957","output_text":"Error: Device \"{deviceId}\" not found.","total_tokens":427}
+{"id":"M2418","output_text":"{\n  \"status\": \"degraded\",\n  \"timestamp\": \"{timestamp}\",\n  \"duration_ms\": {duration_ms},\n  \"metadata_consistency\": {\"consistent\": false, \"issues\": [\"No active board configured\"], \"statistics\": {statistics}, \"last_check\": \"{last_check}\"}\n}","total_tokens":617}
+{"id":"M2860","output_text":"conversationId: {resolvedConversationId}\n\nError: Once schedules requires a valid ISO 8601 calendar date.","total_tokens":515}
+{"id":"M2927","output_text":"Editor '{StaleKind}' state changed since it was read (expected {StaleExpected}, current {StaleCurrent}).","total_tokens":448}
+{"id":"M2401","output_text":"request_key must be a non-empty string","total_tokens":432}
+{"id":"M2857","output_text":"conversationId: {resolvedConversationId}\n\nError: expires_at must use an ISO 8601 UTC timestamp (for example 2026-04-17T15:00:00Z).","total_tokens":586}
+{"id":"M1470","output_text":"Error executing tool {name}: Unexpected error while enriching the resource graph: No handler module available for provider '{provider}'. Please ensure a handler module exists for this provider.\nThis is likely a TerraVision bug.","total_tokens":535}
+{"id":"M0658","output_text":"Error: Stored workflow state is invalid.","total_tokens":419}
+{"id":"M2464","output_text":"Error executing tool memory_store_many: facts[{i}]: Markdown emphasis refused: a memory is plain prose read back by a model","total_tokens":545}
+{"id":"M1742","output_text":"{\"error\":\"Semantic search is not enabled.\"}","total_tokens":492}
+{"id":"M1024","output_text":"Error executing tool get_file_summary: Operation failed: Absolute file paths like '{file_path}' are not allowed.","total_tokens":458}
+{"id":"M0324","output_text":"get_top_image: Error: Handler for 'exec_python_script' failed: Script execution failed: Failed to capture image from {node_path}: saveByteArray returned no data\nTraceback (most recent call last):\n{traceback_frames}Exception: Failed to capture image from {node_path}: saveByteArray returned no data","total_tokens":546}
+{"id":"M0485","output_text":"Error: Key with id {k.id} should either be known, or hash a plaintext value","total_tokens":432}
+{"id":"M0054","output_text":"{tool_error_prefix}Figma API rate limit hit (429).","total_tokens":537}
+{"id":"M2054","output_text":"Communication error with Rhino: Sweep operation failed","total_tokens":462}
+{"id":"M1118","output_text":"tradingview_ta is missing.","total_tokens":427}
+{"id":"M2449","output_text":"Error executing tool {tool}: TamperError: Wrong passphrase (no keyslot opened). The stored credential does not open this vault.","total_tokens":504}
+{"id":"M0328","output_text":"{toolName}: Error: Unknown error occurred.","total_tokens":457}
+{"id":"M1783","output_text":"Could not connect to Chrome.\nCause: {err.message}","total_tokens":435}
+{"id":"M1799","output_text":"Error: No snapshot found for page {this.id ?? '?'}.\n","total_tokens":462}
+{"id":"M2211","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Template helper restore was not attempted\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"domain\": \"helper_template\",\n    \"entity_id\": \"{entity_id}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\",\n    \"reason\": \"backup_capture_failed\"\n  }\n}","total_tokens":720}
+{"id":"M0052","output_text":"{tool_error_prefix}Figma API rate limit hit (429). Your Figma seat type (Viewer or Collaborator) has a lower API rate limit.{optional_plan_text}","total_tokens":553}
+{"id":"M0081","output_text":"Error: Only .drawio and .xml files are supported: {filePath}","total_tokens":427}
+{"id":"M2759","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must be a lowercase slug (letters, digits, dashes)\"\n    }\n  ]\n}","total_tokens":518}
+{"id":"M1949","output_text":"Error executing tool {tool}: {path.name} has {len(parsed.entries)} on-disk entries but no canonical nodes.","total_tokens":471}
+{"id":"M1850","output_text":"Missing 'title' field.","total_tokens":432}
+{"id":"M2622","output_text":"projectIdentifier is required.","total_tokens":492}
+{"id":"M1144","output_text":"MCP query execution supports only 'json' and 'json-table' output.","total_tokens":504}
+{"id":"M1714","output_text":"{\"error\":\"Error executing tool: Parameter '${paramName}': no user or team found for ${missing}. Nothing was changed.\",\"statusCode\":400}","total_tokens":625}
+{"id":"M1980","output_text":"{\n  \"error\": \"The Mindwtr cloud API does not support restoring deleted tasks.\",\n  \"code\": \"validation_error\"\n}","total_tokens":537}
+{"id":"M2504","output_text":"{primary} I did NOT retry against a connected panel: {count} different local ComfyUI origins are connected ({origins}), and choosing one of them would risk answering from a server you did not mean.","total_tokens":499}
+{"id":"M1307","output_text":"Error executing tool {tool}: artifact_path must be a relative path within the run's artifacts, using only letters, numbers, '.', '_', '-', and '/' between segments.","total_tokens":467}
+{"id":"M2758","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"must contain at most 150 nodes\"\n    }\n  ]\n}","total_tokens":468}
+{"id":"M1139","output_text":"MCP execute supports only 'json' and 'json-table' output. The selected profile resolves output='{settings.Output}'.","total_tokens":472}
+{"id":"M0349","output_text":"Error executing tool {toolName}: {\n  \"success\": false,\n  \"error\": \"facebook_connection_required\",\n  \"details\": {\n    \"login_flow_url\": \"/connections\",\n    \"auth_flow_url\": \"/api/meta/auth\"\n  }\n}","total_tokens":651}
+{"id":"M2793","output_text":"{\"error\":\"invalid arguments: ${JSON schema/path violation}\"}","total_tokens":561}
+{"id":"M1459","output_text":"Error executing tool {name}: outfile must be a filename, not a path: {outfile!r}. Output location is set by the server's --output-dir.","total_tokens":651}
+{"id":"M2366","output_text":"{\"status\":422,\"message\":\"Failed to create deployment data.\",\"results\":{\"message\":\"Failed to create deployment data\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":520}
+{"id":"M2856","output_text":"conversationId: {resolvedConversationId}\n\nError: Once schedules requires a non-empty UTC ISO timestamp.","total_tokens":435}
+{"id":"M0418","output_text":"{message}: GitHub secondary rate limit exceeded.","total_tokens":434}
+{"id":"M0554","output_text":"Failed to call Actor '{actorName}': {errMsg}\nAccount memory quota exceeded for your plan.","total_tokens":521}
+{"id":"M0901","output_text":"HTML version not available and PDF conversion requires the pdf extra.","total_tokens":493}
+{"id":"M1423","output_text":"Error: 1 validation error for BrowserProfile\n{args or ignore_default_args}.{index}\n  Value error, Invalid CLI argument: {arg} [type=value_error, input_value={input_repr}, input_type={input_type}]","total_tokens":652}
+{"id":"M1594","output_text":"Bad Request: ${msg}\n\nThe 'topic' field is not valid inside $merge.","total_tokens":487}
+{"id":"M0208","output_text":"{\"error\": {\"code\": \"no_content\", \"message\": \"{data.message}\"}}","total_tokens":491}
+{"id":"M2648","output_text":"Qdrant image download timed out after 10 minutes.","total_tokens":451}
+{"id":"M0945","output_text":"Error: Port forwarding to WebDriverAgent is not running (tunnel okay)","total_tokens":549}
+{"id":"M1547","output_text":"Spotify configuration file not found at ${CONFIG_FILE}.","total_tokens":435}
+{"id":"M0040","output_text":"Error fetching file: Node {nodeId} was not found in the Figma file.","total_tokens":620}
+{"id":"M1726","output_text":"Error executing tool: Attribute 'metricExpression' needs both 'language' and a non-empty 'code'. Nothing was created.","total_tokens":472}
+{"id":"M1445","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code 1).\nLast output before it stopped:\n{earlier retained output lines, if any}\nError: Failed to parse layout data from Graphviz: {e}","total_tokens":500}
+{"id":"M2557","output_text":"Error: Team '{args.TeamName}' not found\n\nTeam '{args.TeamName}' not found.","total_tokens":514}
+{"id":"M0149","output_text":"{legacy_context_prefix}Invalid request parameters.{legacy_context_suffix}","total_tokens":635}
+{"id":"M2821","output_text":"model_config_id must be a valid UUID.","total_tokens":408}
+{"id":"M2886","output_text":"could not mint a bearer (no agents[0] in /api/v3/info).","total_tokens":461}
+{"id":"M2768","output_text":"Invalid app definition.\n\n{\n  \"issues\": [\n    {\n      \"path\": \"${issue.path}\",\n      \"message\": \"filter must be a valid ${columnDefinition.kind} value\"\n    }\n  ]\n}","total_tokens":486}
+{"id":"M0728","output_text":"[{tool-name}] Error: Rate limited by Hevy (HTTP 429).","total_tokens":466}
+{"id":"M2419","output_text":"{\n  \"status\": \"degraded\",\n  \"metadata_consistency\": {\"consistent\": false, \"issues\": [\"Active board is closed/archived\", {other_issues}], \"statistics\": {statistics}, \"last_check\": \"{last_check}\"},\n  \"timestamp\": \"{timestamp}\",\n  \"duration_ms\": {duration_ms}\n}","total_tokens":627}
+{"id":"M2168","output_text":"Service request timed out.","total_tokens":435}
+{"id":"M1074","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, `Container` must have a `title` explicitly set when `collapsed` is not None. {pydantic_input_details_and_other_errors}.","total_tokens":545}
+{"id":"M0641","output_text":"Error: At least --view or --path is required.","total_tokens":603}
+{"id":"M0815","output_text":"Airtable API Error: {response.statusText}. Response: {responseText}","total_tokens":465}
+{"id":"M2556","output_text":"Error: Team '{args.TeamName}' not found\n\nThe team name may be incorrect.","total_tokens":484}
+{"id":"M1403","output_text":"{\n  \"error\": \"playwright_fetch_failed\",\n  \"error_reason\": \"{describeFetchError(err).reason}\",\n  \"stage\": \"fetch\",\n  \"hint\": \"Stealth fetch failed\"\n}","total_tokens":569}
+{"id":"M1732","output_text":"{\"error\":\"Error executing tool: Could not build a '${type.entityType()}' entity: ${detail(type,e)}. Nothing was created.\",\"statusCode\":400}","total_tokens":518}
+{"id":"M0560","output_text":"Failed to call MCP tool '{mcpToolName}' on Actor '{baseActorName}': You have reached your account limit for concurrent Actor runs.","total_tokens":599}
+{"id":"M2859","output_text":"conversationId: {resolvedConversationId}\n\nError: expires_at requires a valid ISO 8601 calendar date.","total_tokens":581}
+{"id":"M0013","output_text":"{\"ok\":false,\"error\":{\"code\":\"BAD_SYMBOL\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"hint\":\"symbol not found on this exchange\",\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":590}
+{"id":"M2714","output_text":"failed to list helm releases: ${key} parameter must be a boolean","total_tokens":436}
+{"id":"M0314","output_text":"{toolName}: Error: 🚨 Version Information Missing\n\nMCP Server:  ${args.mcpVersion || \"Unknown\"}\nAPI Server:  ${args.apiVersion || \"Unknown\"}\n\n${args.apiVersion ? \"\" : \"You might be using an old tox file from before v1.3.0 released on December 1, 2025, or the TouchDesigner setup might not be done correctly.\"}\n${args.mcpVersion ? \"\" : \"The MCP server version could not be determined. You might be using an outdated MCP server.\"}\n\nVersion information is required to ensure compatibility between the MCP server and TouchDesigner components.","total_tokens":974}
+{"id":"M2186","output_text":"Error: Service response was lost.\n[structuredContent] {\"error\": \"{CONNECTION_LOST if read_only or not sent else RESULT_UNKNOWN}\"}","total_tokens":512}
+{"id":"M0690","output_text":"{\"error\":\"CRITICAL: Failed to initialize the persistent cache database at {finalDbPath} after 3 attempts. Last error: {lastError.message or Unknown error}. TOKEN_OPTIMIZER_CACHE_STRICT is set, so no in-memory fallback was used.\"}","total_tokens":528}
+{"id":"M2445","output_text":"Error executing tool {tool}: TamperError: Integrity check failed: data was tampered with or the key is wrong. The stored credential does not open this vault.","total_tokens":502}
+{"id":"M2379","output_text":"No styles match{query ? ` \"${query}\"` : \"\"}{category ? ` in category \"${category}\"` : \"\"}{offset ? ` at offset ${offset}` : \"\"}.","total_tokens":493}
+{"id":"M1592","output_text":"Received a Forbidden API Error: ${error.message}","total_tokens":525}
+{"id":"M0735","output_text":"[{tool-name}] Error: The request failed unexpectedly.","total_tokens":421}
+{"id":"M2207","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"BACKUP_CAPTURE_FAILED\",\n    \"message\": \"Template helper restore was not attempted\",\n    \"suggestion\": \"\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"restored_from\": \"{backup_name}\",\n    \"domain\": \"helper_template\",\n    \"entity_id\": \"{entity_id}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\",\n    \"reason\": \"backup_capture_failed\"\n  }\n}","total_tokens":737}
+{"id":"M0018","output_text":"{\"ok\":false,\"error\":{\"code\":\"TIMEOUT\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":true,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":592}
+{"id":"M2224","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"SERVICE_CALL_FAILED\",\n    \"message\": \"Snapshot is in use by a capture or active restore\",\n    \"suggestion\": \"\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"snapshot_in_use\"\n  }\n}","total_tokens":610}
+{"id":"M1093","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, A single-select Cascader with full_path=True expects a full root-to-leaf path (e.g. ['Europe', 'France']), not a bare leaf. {pydantic_input_details_and_other_errors}.","total_tokens":603}
+{"id":"M2898","output_text":"could not mint a bearer (Cloud mint HTTP {exc.code}: {body}).","total_tokens":455}
+{"id":"M0838","output_text":"{search-only prefix: All configured SearXNG instances failed. {instanceUrl}: }🔒 SSL/TLS Error: Certificate verification failed for {target} ({causeCode}){search-only other instance failures/skipped details}","total_tokens":626}
+{"id":"M1803","output_text":"Error: No snapshot found for page {this.id ?? '?'}.\n","total_tokens":464}
+{"id":"M0986","output_text":"Error executing tool {tool_name}: IEEE Xplore search is not yet implemented.","total_tokens":447}
+{"id":"M0195","output_text":"{\"error\": {\"code\": \"core_unavailable\", \"message\": \"DocsAgent Core is not running.\"}}","total_tokens":534}
+{"id":"M2824","output_text":"**Configuration Error**\n\nThere appears to be a configuration issue with your setup.\n\nUnable to connect to {url} - DNS temporarily unavailable.","total_tokens":528}
+{"id":"M0017","output_text":"{\"ok\":false,\"error\":{\"code\":\"BAD_REQUEST\",\"type\":\"{names[0] ?? Error}\",\"message\":\"{redact(String(error?.message ?? error))}\",\"retryable\":false,\"exchange\":\"{context.exchange; field omitted if undefined}\"}}","total_tokens":529}
+{"id":"M1224","output_text":"保存失败: 目标文件已被其他打开的图纸占用，无法覆盖保存: {file_path}\n目标文件已被其他打开的图纸占用，无法覆盖保存: {file_path}","total_tokens":598}
+{"id":"M0732","output_text":"The request failed Hevy validation. Detail: {responseError}","total_tokens":456}
+{"id":"M1712","output_text":"{\n  \"error\": \"Username must be 1-15 characters\"\n}","total_tokens":500}
+{"id":"M2106","output_text":"Error executing tool insert_after_symbol: ValueError: Cannot insert after this symbol (not a function, class or method): {symbol}.","total_tokens":459}
+{"id":"M2661","output_text":"Invalid EMBEDDING_PROVIDER: \"${rawProvider}\".","total_tokens":499}
+{"id":"M2363","output_text":"{\"status\":422,\"message\":\"No accessible Azure tenants were found for the current credential..\",\"results\":{\"message\":\"No accessible Azure tenants were found for the current credential.\",\"type\":\"InvalidOperationException\"},\"duration\":{duration_ms}}","total_tokens":608}
+{"id":"M2523","output_text":"{url} answered {reason} with a {contentType} body that did not parse as JSON where JSON was expected. This means the body did not parse as JSON and is not markup either. The candidates are a truncated response, a non-JSON error payload, or a responder that is not the ComfyUI JSON API; this response does not identify which. Content-Type: {contentType}. Body starts: {bodyPrefix}.","total_tokens":740}
+{"id":"M2225","output_text":"{\n  \"success\": false,\n  \"error\": {\n    \"code\": \"VALIDATION_INVALID_PARAMETER\",\n    \"message\": \"Snapshot is invalid\",\n    \"suggestion\": \"\"\n  },\n  \"backup_name\": \"{backup_name}\",\n  \"data\": {\n    \"reason\": \"invalid_snapshot\",\n    \"restored_from\": \"{backup_name}\",\n    \"safety_backup\": null,\n    \"apply_status\": \"not_applied\",\n    \"verification_status\": \"not_run\"\n  }\n}","total_tokens":702}
+{"id":"M2103","output_text":"Error executing tool activate_project: ValueError: Cannot activate project '{project.project_name}': it requires the {project_backend} backend, but this session was initialized with {self._language_backend}.","total_tokens":523}
+{"id":"M1780","output_text":"Could not connect to Chrome in {userDataDir}.\nCause: Invalid DevToolsActivePort '{fileContent}' found","total_tokens":471}
+{"id":"M0323","output_text":"get_top_image: Error: Handler for 'exec_python_script' failed: Script execution failed: Node at {node_path} is not a TOP (family={node.family})\nTraceback (most recent call last):\n{traceback_frames}Exception: Node at {node_path} is not a TOP (family={node.family})","total_tokens":580}
+{"id":"M1454","output_text":"Error executing tool {name}: TerraVision could not process this source (exit code None).\nLast output before it stopped:\n{earlier retained output lines, if any}\n  ERROR: {binary} version '{tf_version}' is not supported.","total_tokens":632}
+{"id":"M2571","output_text":"Error: User '{args.Username}' not found\n\nThe username may be incorrect.","total_tokens":469}
+{"id":"M1079","output_text":"Validation Error: {pydantic_error_header_and_location}\n  Value error, The step value of the slider must be less than or equal to the difference between max and min. {pydantic_input_details_and_other_errors}.","total_tokens":539}
+{"id":"M0341","output_text":"Error executing tool {toolName}: {\n  \"error\": \"authentication_required\",\n  \"message\": \"Pipeboard API token not found\"\n}","total_tokens":594}

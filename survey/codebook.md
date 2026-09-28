@@ -1,0 +1,18 @@
+# Survey codebook
+
+**Unit and scope.** One row is an explicit, reachable failure path in a registered MCP tool whose text reaches the model: an `isError` result, an SDK-converted exception, or a structured failure field. Shared branches count once; repeated text/structured representations of one exit count once. Runtime interpolation instances are not separate paths. Logs, startup/client/transport failures, ordinary unmarked text, protocol-level errors and unreachable input checks are excluded. A maximum of 30 paths per repository is selected by relative source path, numeric line and failure-condition order. Repository versions are fixed in `servers.csv`.
+
+| Field | Values and definition |
+|---|---|
+| `id`, `server`, `file`, `line` | Stable path identifier; repository name joining `servers.name`; source-relative file and one-based source line. |
+| `text` | Original text or static template; interpolation placeholders preserve unknown runtime content without inventing it. Multiple visible blocks from one exit are combined. |
+| `states_cause` | `yes`: identifies a failed resource, parameter or unmet condition; `partial`: only an error category, vague condition or unknown downstream message; `no`: generic failure only. |
+| `has_next_step` | `yes` for an executable follow-up directed to the caller: imperatives, “please”, “try”, “use”, “must provide”, and instructions on the required input such as an expected format or range (for example “Duration must be between 0.5 and 5 seconds”); otherwise `no`. A cause or a list of allowed values without an instruction is not a next step. |
+| `next_step_type` | First executable suggestion: `format_correction` (arguments/values/paths), `wait_retry`, `other_tool`, `reauthentication`, `configuration` (keys/environment/settings), `contact_human`, or `other`. Blank without advice. |
+| `depends_on_caller_state` | `yes` when advice correctness depends on caller conditions not observable from this request or server state, such as another tool, login, credentials or permissions; `no` for corrections to the tool's public input format; `uncertain` when fixed code cannot establish observability. Possible failure alone does not imply dependence. Blank without advice. |
+| `includes_stack_or_internal` | `yes` for exposed stack frames, source paths/lines or internal variable names; otherwise `no`. User paths/resource IDs and unknown downstream exceptions are not presumed internal. |
+| `failure_class` | Coarse class from the error code or text, assigned by keyword and checked by reading: `credentials` (missing, invalid or expired keys, tokens, logins or sessions), `permission` (403, forbidden, missing scope, role or plan access), `rate_limit` (429, rate, quota or usage limits); blank otherwise. A path matching several classes takes the first of `rate_limit`, `permission`, `credentials`. |
+| `step_requires` | For the caller-dependent next steps on credential, permission and rate-limit paths, what the reader must do to follow the step, assigned by reading: `command` (run a terminal or CLI command), `configuration` (edit a configuration file, set an environment variable, or supply or replace a key or header), `web_or_account` (open a web page or account console to create a key, authorize, change scopes, roles or plan, or read documentation), `wait_retry`, `other_tool` (call another tool), `other`. Blank for all other paths. |
+| `channel` | `is_error`: flagged error text; `exception`: actual SDK conversion; `structured_content`: structured failure. The representative channel avoids double-counting an exit. |
+
+**Servers.** `servers.csv` contains `name`, `repository_url`, the `commit` that was annotated, `stars` at the time of the survey and the implementation `language`.
